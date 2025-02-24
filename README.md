@@ -26,7 +26,7 @@ python3 manage.py collectstatic
 ## Batch Command to update in github
 
 git add .
-git commit -m "Views Updated"
+git commit -m "Folder structure updated"
 git push origin main
 
 ## Command to pull to production from github
