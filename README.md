@@ -38,6 +38,11 @@ sudo supervisorctl restart all
 
 os user pass: qazwsx!@#
 
+#Credintial for server
+
+ssh elastic@66.70.242.9 -p3000
+elastic!@#123!@#
+
 ## view the Swagger or ReDoc documentation
 
 http://127.0.0.1:8000/swagger/ or

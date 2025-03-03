@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'oauth2_provider',
-    # 'corsheaders',
+    'corsheaders',
     'drf_yasg',
     'app',
 ]
@@ -52,6 +52,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     # Add your custom middleware here
     'app.core.logger.AdvancedLoggingMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 REST_FRAMEWORK = {
@@ -155,3 +157,16 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
+
+# Allow all headers
+CORS_ALLOW_HEADERS = [
+    '*',
+]
+
+# Allow all methods
+CORS_ALLOW_METHODS = [
+    '*',
+]
