@@ -105,9 +105,9 @@ TEMPLATES = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ev_charging',
-        'USER': 'evdb_user',
-        'PASSWORD': 'evuser_12345',
+        'NAME': 'complywise',
+        'USER': 'complywise_user',
+        'PASSWORD': 'complywise_12345',
         'HOST': 'localhost',
         'PORT': '5432',
     }
