@@ -38,7 +38,7 @@ sudo supervisorctl restart all
 
 os user pass: qazwsx!@#
 
-#Credintial for server
+##Credintial for server
 
 ssh elastic@66.70.242.9 -p3000
 elastic!@#123!@#

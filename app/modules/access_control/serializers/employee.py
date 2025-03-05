@@ -1,13 +1,19 @@
 from rest_framework import serializers
-from django.contrib.auth.models import User
 from ..models.employee import Employee
-import random
-import string
+from app.modules.general_module.serializers.documents import DocumentsSerializer
 
-class EmployeeSerializer(serializers.ModelSerializer):    
+class EmployeeSerializer(serializers.ModelSerializer):
+    documents=DocumentsSerializer(many=True, read_only=True)
     class Meta:
         model = Employee
-        fields = ['id', 'name', 'address','phone','email', 'gender']
+        fields='__all__'
+        #fields = ['id', 'name', 'address','phone','email', 'gender','documents']
+        
+
+
+
+
+
 
 
 
