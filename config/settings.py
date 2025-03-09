@@ -60,25 +60,33 @@ MIDDLEWARE = [
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'oauth2_provider.contrib.rest_framework.OAuth2Authentication',  # OAuth2 authentication
-        'rest_framework.authentication.BasicAuthentication',
-        'rest_framework.authentication.SessionAuthentication',  # Optional for browser-based login
+          # Optional for browser-based login
     ),
     # enable this part to apply authentication globally for all views
-    'DEFAULT_PERMISSION_CLASSES': (
-        # 'rest_framework.permissions.Isauthenticated',
-        'rest_framework.permissions.AllowAny',  # This allows public access to all views
-    ),
+    # 'DEFAULT_PERMISSION_CLASSES': (
+    #     # 'rest_framework.permissions.Isauthenticated',
+    #     'rest_framework.permissions.AllowAny',  # This allows public access to all views
+    # ),
 }
 
 # Django OAuth Toolkit settings
+# OAUTH2_PROVIDER = {
+#     'SCOPES': {
+#         'read': 'Read scope',
+#         'write': 'Write scope',
+#         'groups': 'Access to your groups',
+#     },
+#     'ACCESS_TOKEN_EXPIRE_SECONDS': 3600,
+#     'REFRESH_TOKEN_'  # Token expiration time (1 hour)
+
 OAUTH2_PROVIDER = {
-    'SCOPES': {
-        'read': 'Read scope',
-        'write': 'Write scope',
-        'groups': 'Access to your groups',
-    },
-    'ACCESS_TOKEN_EXPIRE_SECONDS': 3600,  # Token expiration time (1 hour)
+    'ACCESS_TOKEN_EXPIRE_SECONDS': 86400,  # 1 day
+    'REFRESH_TOKEN_EXPIRE_SECONDS': 2592000,  # 30 days
 }
+AUTHENTICATION_BACKENDS = (
+    "django.contrib.auth.backends.ModelBackend",
+    "oauth2_provider.backends.OAuth2Backend",
+)
 # AUTH_USER_MODEL = 'app.EVUser'
 
 ROOT_URLCONF = 'config.urls'

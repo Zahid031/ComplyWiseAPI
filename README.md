@@ -33,15 +33,18 @@ git push origin main
 
 git pull origin main
 
+sudo systemctl restart gunicorn.service
+
 sudo systemctl restart nginx
 sudo supervisorctl restart all
 
 os user pass: qazwsx!@#
 
-##Credintial for server
+## Credintial for server
 
 ssh elastic@66.70.242.9 -p3000
 elastic!@#123!@#
+http://66.70.242.9:3001/
 
 ## view the Swagger or ReDoc documentation
 
@@ -64,3 +67,14 @@ sudo rm -r staticfiles/
 python3 manage.py collectstatic
 
 sudo systemctl restart complywiseapi
+
+
+
+ALTER DATABASE complywise OWNER TO complywise_user;
+
+GRANT ALL PRIVILEGES ON DATABASE complywise TO complywise_user;
+
+GRANT ALL PRIVILEGES ON SCHEMA public TO complywise_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO complywise_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON SEQUENCES TO complywise_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON FUNCTIONS TO complywise_user;
