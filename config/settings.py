@@ -10,6 +10,12 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 from .logging import LOGGING
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
+CLIENT_ID= os.getenv('CLIENT_ID')
+CLIENT_SECRET=os.getenv('CLIENT_SECRET')
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -59,17 +65,11 @@ MIDDLEWARE = [
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'oauth2_provider.contrib.rest_framework.OAuth2Authentication',  # OAuth2 authentication
-          # Optional for browser-based login
+        'oauth2_provider.contrib.rest_framework.OAuth2Authentication',  
     ),
-    # enable this part to apply authentication globally for all views
-    # 'DEFAULT_PERMISSION_CLASSES': (
-    #     # 'rest_framework.permissions.Isauthenticated',
-    #     'rest_framework.permissions.AllowAny',  # This allows public access to all views
-    # ),
 }
 
-# Django OAuth Toolkit settings
+
 # OAUTH2_PROVIDER = {
 #     'SCOPES': {
 #         'read': 'Read scope',
@@ -80,14 +80,15 @@ REST_FRAMEWORK = {
 #     'REFRESH_TOKEN_'  # Token expiration time (1 hour)
 
 OAUTH2_PROVIDER = {
-    'ACCESS_TOKEN_EXPIRE_SECONDS': 86400,  # 1 day
-    'REFRESH_TOKEN_EXPIRE_SECONDS': 2592000,  # 30 days
+    'ACCESS_TOKEN_EXPIRE_SECONDS': 3600,  
+    'REFRESH_TOKEN_EXPIRE_SECONDS': 172800,  
 }
 AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",
     "oauth2_provider.backends.OAuth2Backend",
 )
-# AUTH_USER_MODEL = 'app.EVUser'
+
+AUTH_USER_MODEL = 'app.User'
 
 ROOT_URLCONF = 'config.urls'
 

@@ -38,12 +38,11 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/',admin.site.urls),
     path('api/', include('app.urls')),  
-    path('oauth/', include('oauth2_provider.urls', namespace='oauth2_provider')),  # OAuth 2.0 endpoints
+    path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),  # OAuth 2.0 endpoints
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]
-
 
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -16,9 +16,11 @@ oauthlib==3.2.2
 packaging==24.2
 psycopg2-binary==2.9.10
 pycparser==2.22
+python-dotenv==1.0.1
 pytz==2025.1
 PyYAML==6.0.2
 requests==2.32.3
+requests-oauthlib==2.0.0
 sqlparse==0.5.3
 typing_extensions==4.12.2
 uritemplate==4.1.1
