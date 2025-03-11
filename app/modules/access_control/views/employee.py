@@ -57,15 +57,16 @@ class EmployeeViewSet(viewsets.ModelViewSet):
             serializer.save()
 
             files_to_delete = request.data.get('files_to_delete', [])
-            try:
-                files_to_delete = json.loads(files_to_delete)  
-            except json.JSONDecodeError:
-                return Response(
-                    {"error": "Invalid format for 'files_to_delete'. Expected a JSON array."},
-                    status=status.HTTP_400_BAD_REQUEST
-                )
+            if isinstance(files_to_delete, str):
+                try: 
+                    files_to_delete = json.loads(files_to_delete)  
+                except json.JSONDecodeError:
+                    return Response(
+                        {"error": "Invalid format for 'files_to_delete'. Expected a JSON array."},
+                        status=status.HTTP_400_BAD_REQUEST
+                    )
             if files_to_delete:
-                to_delete=Documents.objects.filter(parent_type='Employee',parent_id=instance.id)
+                to_delete=Documents.objects.filter(parent_type='Employee',parent_id=instance.id,id__in=files_to_delete)
                 for doc in to_delete:
                     if doc.file:
                         file_path = doc.file.path

@@ -3430,3 +3430,65 @@ Traceback (most recent call last):
     raise RuntimeError(
 RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/employees/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
 ERROR 2025-03-11 09:00:41,359 basehttp "PUT /api/employees/1 HTTP/1.1" 500 81799
+ERROR 2025-03-11 09:37:20,682 log Internal Server Error: /api/employees/5/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py", line 61, in update
+    files_to_delete = json.loads(files_to_delete)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+ERROR 2025-03-11 09:37:20,689 basehttp "PUT /api/employees/5/ HTTP/1.1" 500 114955
+ERROR 2025-03-11 09:41:50,867 log Internal Server Error: /api/employees/5/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py", line 61, in update
+    files_to_delete = json.loads(files_to_delete)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+ERROR 2025-03-11 09:41:50,872 basehttp "PUT /api/employees/5/ HTTP/1.1" 500 114955

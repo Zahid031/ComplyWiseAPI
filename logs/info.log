@@ -7278,3 +7278,138 @@ INFO 2025-03-11 09:10:22,530 basehttp "PUT /api/employees/4/ HTTP/1.1" 200 651
 INFO 2025-03-11 09:16:34,982 autoreload Watching for file changes with StatReloader
 INFO 2025-03-11 09:17:04,171 logger Request: {"method": "POST", "path": "/api/employees/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "1dddbd69-6152-4505-b407-12d42136a419", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
 INFO 2025-03-11 09:17:04,228 basehttp "POST /api/employees/ HTTP/1.1" 201 652
+INFO 2025-03-11 09:31:51,505 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:32:18,099 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:32:27,245 logger Request: {"method": "GET", "path": "/api/employees/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "ff6790f5-3de7-47ca-b4d0-d29e14aaad42", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}}
+INFO 2025-03-11 09:32:27,296 basehttp "GET /api/employees/ HTTP/1.1" 200 1967
+INFO 2025-03-11 09:32:43,053 logger Request: {"method": "GET", "path": "/api/employees/5/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "22517d16-b6d4-4580-848f-01cded645bc7", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}}
+INFO 2025-03-11 09:32:43,082 basehttp "GET /api/employees/5/ HTTP/1.1" 200 652
+INFO 2025-03-11 09:34:07,783 logger Request: {"method": "PUT", "path": "/api/employees/5/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "fe1b2ac0-ad9f-42b4-8943-e6111f5a176f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+INFO 2025-03-11 09:34:07,829 basehttp "PUT /api/employees/5/ HTTP/1.1" 200 223
+INFO 2025-03-11 09:36:42,149 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:36:43,124 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:36:46,822 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:36:47,460 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:36:49,488 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:36:50,133 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:36:53,135 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:36:53,688 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:36:59,864 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:37:00,554 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:37:02,845 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:37:03,591 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:37:08,412 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:37:20,606 logger Request: {"method": "PUT", "path": "/api/employees/5/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "8ceb09d2-c9ca-4caa-a3e4-810f4f1855ee", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-11 09:37:20,682 log Internal Server Error: /api/employees/5/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py", line 61, in update
+    files_to_delete = json.loads(files_to_delete)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+INFO 2025-03-11 09:37:20,686 logger Response: {"status_code": 500, "duration": "0.08s"}
+ERROR 2025-03-11 09:37:20,689 basehttp "PUT /api/employees/5/ HTTP/1.1" 500 114955
+INFO 2025-03-11 09:39:34,077 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:39:34,773 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:39:41,356 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:39:41,985 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:39:45,328 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:39:46,498 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:40:10,254 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:40:10,800 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:40:19,476 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:40:20,028 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:40:56,176 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:40:56,841 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:40:59,358 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:41:00,037 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:41:10,558 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:41:11,511 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:41:14,698 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:41:15,471 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:41:19,676 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:41:20,171 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:41:44,759 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:41:50,794 logger Request: {"method": "PUT", "path": "/api/employees/5/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "0de4b31c-1866-4c66-a895-bbb34eeb61d8", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-11 09:41:50,867 log Internal Server Error: /api/employees/5/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py", line 61, in update
+    files_to_delete = json.loads(files_to_delete)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+INFO 2025-03-11 09:41:50,871 logger Response: {"status_code": 500, "duration": "0.08s"}
+ERROR 2025-03-11 09:41:50,872 basehttp "PUT /api/employees/5/ HTTP/1.1" 500 114955
+INFO 2025-03-11 09:42:37,213 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:42:38,133 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:42:41,767 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:42:42,242 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:42:52,822 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:42:53,649 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:45:14,488 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:45:15,087 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:45:30,086 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:45:30,960 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:45:42,482 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:45:43,192 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:45:48,041 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:45:48,936 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:45:59,818 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:46:00,599 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:46:03,153 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/employee.py changed, reloading.
+INFO 2025-03-11 09:46:03,971 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:46:17,785 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 09:46:28,507 logger Request: {"method": "PUT", "path": "/api/employees/5/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "df13ff83-30a2-49ea-9d84-487ee2c7e941", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+INFO 2025-03-11 09:46:28,584 basehttp "PUT /api/employees/5/ HTTP/1.1" 200 652
+INFO 2025-03-11 09:46:49,133 logger Request: {"method": "PUT", "path": "/api/employees/5/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "bdd9f868-8fa2-4d42-a48d-03b61df44194", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+INFO 2025-03-11 09:46:49,158 basehttp "PUT /api/employees/5/ HTTP/1.1" 200 453
+INFO 2025-03-11 09:46:56,769 logger Request: {"method": "GET", "path": "/api/employees/5/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "e47a513c-5998-4d2d-ab64-896dd19892b3", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}}
+INFO 2025-03-11 09:46:56,787 basehttp "GET /api/employees/5/ HTTP/1.1" 200 453
+INFO 2025-03-11 09:47:13,075 logger Request: {"method": "POST", "path": "/api/employees/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "efc8c7b1-cb04-4549-9008-60affc3d5de8", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+INFO 2025-03-11 09:47:13,137 basehttp "POST /api/employees/ HTTP/1.1" 201 653
