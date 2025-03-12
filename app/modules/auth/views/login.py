@@ -1,64 +1,46 @@
-# from rest_framework.views import APIView
-# from rest_framework.response import Response
-# from rest_framework import status, permissions
-# from django.contrib.auth import login, logout
-# from django.core.mail import send_mail
-# from ..models import User
-# from ..serializers import LoginSerializer, ChangePasswordSerializer, ForgotPasswordSerializer, UserSerializer
-# from ..services import AuthService
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from ..serializers.login  import LoginSerializer
+from django.contrib.auth import authenticate
+from oauth2_provider.models import Application
+from oauth2_provider.models import AccessToken,RefreshToken
+from oauthlib.common import generate_token
+from oauth2_provider.settings import oauth2_settings
+from datetime import timedelta
+from django.utils.timezone import now
 
 
 
-# class RegisterView(APIView):
-#     def post(self, request):
-#         serializer = UserSerializer(data=request.data)
-#         if serializer.is_valid():
-#             user = serializer.save()
-#             return Response(serializer.data, status=status.HTTP_201_CREATED)
-#         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+class LoginView(APIView):
+    serializer_class=LoginSerializer
+    def post(self,request):
+        serializers=LoginSerializer(data=request.data)
+        if serializers.is_valid():
+            email=serializers.validated_data['email']
+            password=serializers.validated_data['password']
+            user=authenticate(request,email=email,password=password)
+            if not user:
+                return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
+            if not user.is_active:
+                raise serializers.ValidationError("Email is not verified")
+            try:
+                app=Application.objects.get(client_type=Application.CLIENT_CONFIDENTIAL,authorization_grant_type="password")
+            except Application.DoesNotExist:
+                return Response({'error': 'Application not found'}, status=status.HTTP_404_NOT_FOUND)
+            access_token=AccessToken.objects.create(
+                user=user,
+                token=generate_token(),
+                application=app,
+                scope='read write',
+                expires=now()+timedelta(seconds=oauth2_settings.ACCESS_TOKEN_EXPIRE_SECONDS),
+            )
+            return Response({
+            'access_token': access_token.token,
+            'expires_in': oauth2_settings.ACCESS_TOKEN_EXPIRE_SECONDS,
+            #'refresh_token': refresh_token.token,
+            'token_type': 'Bearer'
+            },status=status.HTTP_200_OK)
+            
 
-# class LoginView(APIView):
-#     def post(self, request):
-#         serializer = LoginSerializer(data=request.data)
-#         if serializer.is_valid():
-#             user = serializer.validated_data
-#             access_token = AuthService.create_access_token(user, 'Your Application Name')
-#             return Response({
-#                 'access_token': access_token.token,
-#                 'expires_in': access_token.expires
-#             }, status=status.HTTP_200_OK)
-#         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-# class LogoutView(APIView):
-#     permission_classes = [permissions.IsAuthenticated]
-
-#     def post(self, request):
-#         logout(request)
-#         return Response({"message": "Logged out successfully"}, status=status.HTTP_200_OK)
-
-# class ChangePasswordView(APIView):
-#     permission_classes = [permissions.IsAuthenticated]
-
-#     def post(self, request):
-#         serializer = ChangePasswordSerializer(data=request.data)
-#         if serializer.is_valid():
-#             user = request.user
-#             if not user.check_password(serializer.validated_data["old_password"]):
-#                 return Response({"error": "Incorrect old password"}, status=status.HTTP_400_BAD_REQUEST)
-
-#             user.set_password(serializer.validated_data["new_password"])
-#             user.save()
-#             return Response({"message": "Password changed successfully"}, status=status.HTTP_200_OK)
-#         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-# class ForgotPasswordView(APIView):
-#     def post(self, request):
-#         serializer = ForgotPasswordSerializer(data=request.data)
-#         if serializer.is_valid():
-#             email = serializer.validated_data["email"]
-#             user = User.objects.filter(email=email).first()
-#             if user:
-#                 # Simulating email sending (replace with actual logic)
-#                 send_mail("Password Reset Request", "Reset your password here.", "admin@example.com", [email])
-#             return Response({"message": "If the email exists, a reset link has been sent."}, status=status.HTTP_200_OK)
-#         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

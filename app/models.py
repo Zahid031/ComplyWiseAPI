@@ -24,15 +24,22 @@ class CustomUserManager(BaseUserManager):
 
         return self.create_user(email, password, **extra_fields)
     
+    
 class User(AbstractUser, BaseModel):
     username = None  
     email = models.EmailField(unique=True)
-    is_active = models.BooleanField(default=True)
+    full_name=models.CharField(max_length=100,null=False, blank=True)
+    mobile_no=models.CharField(max_length=15, null=False, blank=True)
+    password=models.CharField(max_length=100,null=True, blank=True)
+    #email_verified=models.BooleanField(default=False)
+    email_verified_at=models.DateTimeField(null=True, blank=True)
+    
+    is_active = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = []
+    REQUIRED_FIELDS = ['full_name','mobile_no']
 
     objects = CustomUserManager()
 

@@ -12,6 +12,7 @@ from oauth2_provider.models import AccessToken, RefreshToken, Application
 from oauth2_provider.settings import oauth2_settings
 from datetime import timedelta
 from oauthlib.common import generate_token
+from ..serializers import UserRegistrationSerializer
 
 
 User = get_user_model()
@@ -28,7 +29,7 @@ class RegisterView(APIView):
 class LoginView(APIView):
     serializer_class = UserLoginSerializer
     
-    def post(self, request):
+    def post(self, request):    
         serializer = UserLoginSerializer(data=request.data)
         if serializer.is_valid():
             email = serializer.validated_data['email']
