@@ -28,11 +28,12 @@ class CustomUserManager(BaseUserManager):
 class User(AbstractUser, BaseModel):
     username = None  
     email = models.EmailField(unique=True)
-    full_name=models.CharField(max_length=100,null=False, blank=True)
-    mobile_no=models.CharField(max_length=15, null=False, blank=True)
-    password=models.CharField(max_length=100,null=True, blank=True)
+    full_name=models.CharField(max_length=100,null=False, blank=False)
+    mobile_no=models.CharField(max_length=15, null=False, blank=False)
+    password=models.CharField(max_length=100,null=False, blank=False)
     #email_verified=models.BooleanField(default=False)
     email_verified_at=models.DateTimeField(null=True, blank=True)
+    is_otp_verified=models.BooleanField(default=False)
     
     is_active = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)

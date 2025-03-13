@@ -4194,3 +4194,541 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^
 AttributeError: 'User' object has no attribute 'email_verified'
 ERROR 2025-03-12 09:28:39,306 basehttp "POST /api/login/ HTTP/1.1" 500 107840
+ERROR 2025-03-13 05:22:56,397 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-03-13 05:22:56,402 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+ERROR 2025-03-13 05:26:36,243 log Internal Server Error: /api/change-password/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py", line 16, in post
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1054, in get_fields
+    assert hasattr(self, 'Meta'), (
+AssertionError: Class ChangePasswordSerializer missing "Meta" attribute
+ERROR 2025-03-13 05:26:36,249 basehttp "POST /api/change-password/ HTTP/1.1" 500 135845
+ERROR 2025-03-13 05:30:25,070 log Internal Server Error: /api/change-password/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py", line 18, in post
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1054, in get_fields
+    assert hasattr(self, 'Meta'), (
+AssertionError: Class ChangePasswordSerializer missing "Meta" attribute
+ERROR 2025-03-13 05:30:25,073 basehttp "POST /api/change-password/ HTTP/1.1" 500 135853
+ERROR 2025-03-13 05:42:47,575 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-03-13 05:42:47,579 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+ERROR 2025-03-13 05:45:14,650 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 22, in post
+    if serializers.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1078, in get_fields
+    info = model_meta.get_field_info(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/utils/model_meta.py", line 35, in get_field_info
+    opts = model._meta.concrete_model._meta
+           ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '_meta'
+ERROR 2025-03-13 05:45:14,654 basehttp "POST /api/login/ HTTP/1.1" 500 139054
+ERROR 2025-03-13 05:45:16,651 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 22, in post
+    if serializers.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1078, in get_fields
+    info = model_meta.get_field_info(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/utils/model_meta.py", line 35, in get_field_info
+    opts = model._meta.concrete_model._meta
+           ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '_meta'
+ERROR 2025-03-13 05:45:16,653 basehttp "POST /api/login/ HTTP/1.1" 500 139054
+ERROR 2025-03-13 05:45:24,361 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 22, in post
+    if serializers.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1078, in get_fields
+    info = model_meta.get_field_info(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/utils/model_meta.py", line 35, in get_field_info
+    opts = model._meta.concrete_model._meta
+           ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '_meta'
+ERROR 2025-03-13 05:45:24,366 basehttp "POST /api/login/ HTTP/1.1" 500 139054
+ERROR 2025-03-13 05:48:58,571 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 22, in post
+    if serializers.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1078, in get_fields
+    info = model_meta.get_field_info(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/utils/model_meta.py", line 35, in get_field_info
+    opts = model._meta.concrete_model._meta
+           ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '_meta'
+ERROR 2025-03-13 05:48:58,577 basehttp "POST /api/login/ HTTP/1.1" 500 139054
+ERROR 2025-03-13 05:49:47,648 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-03-13 05:49:47,652 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+ERROR 2025-03-13 05:50:00,775 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-03-13 05:50:00,778 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+ERROR 2025-03-13 05:57:42,104 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-03-13 05:57:42,108 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+ERROR 2025-03-13 05:58:53,045 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-03-13 05:58:53,055 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+ERROR 2025-03-13 05:59:06,846 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-03-13 05:59:06,855 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+ERROR 2025-03-13 07:55:34,250 log Internal Server Error: /api/send-otp/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py", line 27, in post
+    user = User.objects.filter(email=serializer.validated_data['email']).first()
+           ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'objects'
+ERROR 2025-03-13 07:55:34,256 basehttp "POST /api/send-otp/ HTTP/1.1" 500 105109
+ERROR 2025-03-13 08:33:55,483 log Internal Server Error: /api/send-otp/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py", line 27, in post
+    user = User.objects.filter(email=serializer.validated_data['email']).first()
+           ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'objects'
+ERROR 2025-03-13 08:33:55,488 basehttp "POST /api/send-otp/ HTTP/1.1" 500 105111
+ERROR 2025-03-13 09:45:49,455 log Internal Server Error: /api/reset-password/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/reset_password.py", line 24, in post
+    if not user.is_otp_verified:
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'is_otp_verified'
+ERROR 2025-03-13 09:45:49,462 basehttp "POST /api/reset-password/ HTTP/1.1" 500 106252

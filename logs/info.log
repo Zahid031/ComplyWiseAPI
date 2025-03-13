@@ -8694,3 +8694,1144 @@ INFO 2025-03-12 09:58:55,951 logger Request: {"method": "POST", "path": "/api/lo
 INFO 2025-03-12 09:58:56,180 basehttp "POST /api/login/ HTTP/1.1" 200 7469
 INFO 2025-03-12 09:58:56,255 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/login/", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
 WARNING 2025-03-12 09:58:56,261 log Not Found: /favicon.ico
+INFO 2025-03-13 03:48:52,059 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 03:49:07,916 logger Request: {"method": "GET", "path": "/api/register", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 03:49:07,942 basehttp "GET /api/register HTTP/1.1" 301 0
+INFO 2025-03-13 03:49:07,969 logger Request: {"method": "GET", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 03:49:08,146 log Method Not Allowed: /api/register/
+WARNING 2025-03-13 03:49:08,147 basehttp "GET /api/register/ HTTP/1.1" 405 7926
+INFO 2025-03-13 03:49:08,556 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/register/", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-13 03:49:08,580 log Not Found: /favicon.ico
+INFO 2025-03-13 03:55:27,178 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 03:55:29,252 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 03:55:34,564 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 03:55:35,942 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 03:55:51,507 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 03:55:53,342 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 03:55:57,698 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 03:55:59,107 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 03:56:07,963 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 03:56:09,212 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 03:57:26,021 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 04:03:02,364 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 04:03:40,782 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/config/settings.py changed, reloading.
+INFO 2025-03-13 04:03:42,447 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 04:03:46,340 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/config/settings.py changed, reloading.
+INFO 2025-03-13 04:07:04,371 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 04:07:21,475 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/register.py changed, reloading.
+INFO 2025-03-13 04:07:23,109 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 04:07:44,689 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/register.py changed, reloading.
+INFO 2025-03-13 04:07:46,205 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 04:17:39,427 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 04:17:47,946 logger Request: {"method": "GET", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 04:17:48,101 log Method Not Allowed: /api/register/
+WARNING 2025-03-13 04:17:48,102 basehttp "GET /api/register/ HTTP/1.1" 405 7926
+INFO 2025-03-13 04:17:48,207 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,207 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,209 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,209 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,210 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,212 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,213 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,213 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,218 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,219 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,220 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-03-13 04:17:48,257 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-03-13 04:17:48,322 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/register/", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-13 04:17:48,332 log Not Found: /favicon.ico
+INFO 2025-03-13 04:18:10,120 logger Request: {"method": "POST", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/register/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+WARNING 2025-03-13 04:18:10,154 log Bad Request: /api/register/
+WARNING 2025-03-13 04:18:10,155 basehttp "POST /api/register/ HTTP/1.1" 400 8091
+INFO 2025-03-13 04:18:15,152 logger Request: {"method": "POST", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/register/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+INFO 2025-03-13 04:18:15,404 basehttp "POST /api/register/ HTTP/1.1" 201 7915
+INFO 2025-03-13 04:25:46,218 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/register.py changed, reloading.
+INFO 2025-03-13 04:25:47,295 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 04:25:51,538 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/register.py changed, reloading.
+INFO 2025-03-13 04:25:52,103 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:08:20,908 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:08:21,541 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:08:32,065 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:08:32,688 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:08:51,206 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:08:51,742 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:04,807 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:05,535 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:08,343 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:08,903 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:17,301 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:17,962 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:19,788 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:20,497 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:32,520 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:33,052 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:37,010 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:37,493 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:45,157 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:45,676 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:47,575 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:48,090 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:49,867 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:50,579 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:53,774 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:54,298 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:09:57,348 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:09:58,085 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:02,220 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:02,800 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:04,711 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:05,320 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:07,042 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:07,849 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:09,650 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:10,211 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:17,717 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:18,325 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:23,317 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:23,884 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:26,775 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:27,319 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:32,488 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:33,033 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:10:36,920 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/urls.py changed, reloading.
+INFO 2025-03-13 05:10:37,411 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:14:14,396 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/validate_otp.py changed, reloading.
+INFO 2025-03-13 05:14:14,927 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:14:55,616 logger Request: {"method": "GET", "path": "/api/login", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 05:14:55,630 basehttp "GET /api/login HTTP/1.1" 301 0
+INFO 2025-03-13 05:14:55,645 logger Request: {"method": "GET", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 05:14:55,711 log Unauthorized: /api/login/
+WARNING 2025-03-13 05:14:55,712 basehttp "GET /api/login/ HTTP/1.1" 401 3834
+INFO 2025-03-13 05:16:05,499 logger Request: {"method": "GET", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 05:16:05,504 log Unauthorized: /api/login/
+WARNING 2025-03-13 05:16:05,505 basehttp "GET /api/login/ HTTP/1.1" 401 3834
+INFO 2025-03-13 05:16:14,027 logger Request: {"method": "GET", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 05:16:14,059 log Method Not Allowed: /api/register/
+WARNING 2025-03-13 05:16:14,059 basehttp "GET /api/register/ HTTP/1.1" 405 7926
+INFO 2025-03-13 05:16:14,160 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/register/", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-13 05:16:14,165 log Not Found: /favicon.ico
+INFO 2025-03-13 05:16:59,502 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:17:00,096 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:17:04,919 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:17:05,826 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:17:07,650 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:17:08,581 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:17:21,904 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:17:22,618 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:17:33,299 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:17:33,919 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:17:41,614 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:17:42,151 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:17:44,882 logger Request: {"method": "GET", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 05:17:44,971 log Method Not Allowed: /api/register/
+WARNING 2025-03-13 05:17:44,972 basehttp "GET /api/register/ HTTP/1.1" 405 7926
+INFO 2025-03-13 05:17:51,558 logger Request: {"method": "GET", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 05:17:51,562 log Method Not Allowed: /api/login/
+WARNING 2025-03-13 05:17:51,563 basehttp "GET /api/login/ HTTP/1.1" 405 7403
+INFO 2025-03-13 05:18:04,071 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/login/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+INFO 2025-03-13 05:18:04,327 basehttp "POST /api/login/ HTTP/1.1" 200 7469
+INFO 2025-03-13 05:22:03,182 logger Request: {"method": "GET", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 05:22:03,193 log Unauthorized: /api/change-password/
+WARNING 2025-03-13 05:22:03,194 basehttp "GET /api/change-password/ HTTP/1.1" 401 3884
+INFO 2025-03-13 05:22:03,294 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/change-password/", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-13 05:22:03,302 log Not Found: /favicon.ico
+INFO 2025-03-13 05:22:56,371 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "aba727f8-098b-42a5-a65b-8b9e6fc9a46a", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:22:56,397 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2025-03-13 05:22:56,402 logger Response: {"status_code": 500, "duration": "0.03s"}
+ERROR 2025-03-13 05:22:56,402 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+INFO 2025-03-13 05:23:41,044 logger Request: {"method": "GET", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 05:23:41,053 log Method Not Allowed: /api/login/
+WARNING 2025-03-13 05:23:41,054 basehttp "GET /api/login/ HTTP/1.1" 405 7403
+INFO 2025-03-13 05:23:41,177 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/login/", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-13 05:23:41,183 log Not Found: /favicon.ico
+INFO 2025-03-13 05:24:05,570 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "f198b98b-ed89-4290-a24e-271dbc301253", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "password": "*****"}}
+INFO 2025-03-13 05:24:05,795 basehttp "POST /api/login/ HTTP/1.1" 200 89
+INFO 2025-03-13 05:25:32,461 logger Request: {"method": "OPTIONS", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html; q=1.0, */*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/login/", "X-Requested-With": "XMLHttpRequest", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}}
+INFO 2025-03-13 05:25:32,472 basehttp "OPTIONS /api/login/ HTTP/1.1" 200 7668
+INFO 2025-03-13 05:26:36,201 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer 8APQjlopk50vTyVCAzX8GuJBzjgTv6", "User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "a8a44d6b-afaa-4191-8b43-af9c7a02af98", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "old_password": "saif", "new_password": "saif1", "confirm_password": "saif1"}}
+ERROR 2025-03-13 05:26:36,243 log Internal Server Error: /api/change-password/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py", line 16, in post
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1054, in get_fields
+    assert hasattr(self, 'Meta'), (
+AssertionError: Class ChangePasswordSerializer missing "Meta" attribute
+INFO 2025-03-13 05:26:36,248 logger Response: {"status_code": 500, "duration": "0.05s"}
+ERROR 2025-03-13 05:26:36,249 basehttp "POST /api/change-password/ HTTP/1.1" 500 135845
+INFO 2025-03-13 05:27:22,609 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py changed, reloading.
+INFO 2025-03-13 05:27:23,492 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:27:26,279 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py changed, reloading.
+INFO 2025-03-13 05:27:27,227 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:27:33,084 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py changed, reloading.
+INFO 2025-03-13 05:27:33,715 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:28:05,158 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py changed, reloading.
+INFO 2025-03-13 05:28:05,711 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:30:24,956 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer 8APQjlopk50vTyVCAzX8GuJBzjgTv6", "User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "ba0369ca-617f-4d5d-9035-c64faed13055", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "old_password": "saif", "new_password": "saif1", "confirm_password": "saif1"}}
+ERROR 2025-03-13 05:30:25,070 log Internal Server Error: /api/change-password/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py", line 18, in post
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1054, in get_fields
+    assert hasattr(self, 'Meta'), (
+AssertionError: Class ChangePasswordSerializer missing "Meta" attribute
+INFO 2025-03-13 05:30:25,073 logger Response: {"status_code": 500, "duration": "0.12s"}
+ERROR 2025-03-13 05:30:25,073 basehttp "POST /api/change-password/ HTTP/1.1" 500 135853
+INFO 2025-03-13 05:32:01,115 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/change_password.py changed, reloading.
+INFO 2025-03-13 05:32:01,863 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:32:06,368 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer 8APQjlopk50vTyVCAzX8GuJBzjgTv6", "User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "2fda4102-1641-4c0d-a7e2-8932fb949b27", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "old_password": "saif", "new_password": "saif1", "confirm_password": "saif1"}}
+INFO 2025-03-13 05:32:06,852 basehttp "POST /api/change-password/ HTTP/1.1" 200 43
+INFO 2025-03-13 05:37:58,753 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "d5b2abe6-fabd-4c85-8dfe-da772d189a08", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "password": "*****"}}
+INFO 2025-03-13 05:37:58,989 basehttp "POST /api/login/ HTTP/1.1" 200 89
+INFO 2025-03-13 05:38:50,660 logger Request: {"method": "POST", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "8ff9f9ce-5903-4bb8-89ca-01ec6c0dd052", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+WARNING 2025-03-13 05:38:50,662 log Bad Request: /api/register/
+WARNING 2025-03-13 05:38:50,663 basehttp "POST /api/register/ HTTP/1.1" 400 156
+INFO 2025-03-13 05:42:47,536 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "389c6473-aef0-49b9-a4e9-6c9fa8f7a349", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:42:47,575 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2025-03-13 05:42:47,579 logger Response: {"status_code": 500, "duration": "0.04s"}
+ERROR 2025-03-13 05:42:47,579 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+INFO 2025-03-13 05:43:30,373 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:43:30,979 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:43:37,064 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:43:37,889 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:43:39,765 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:43:40,341 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:43:48,844 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:43:49,322 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:43:52,898 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:43:53,951 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:00,079 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:00,897 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:06,345 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:07,276 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:10,535 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:11,145 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:15,077 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:15,652 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:18,759 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:19,332 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:22,972 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:23,436 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:29,335 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:30,048 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:33,456 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:33,926 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:42,971 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:43,528 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:47,072 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:47,737 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:50,435 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:51,065 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:44:56,186 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:44:56,688 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:00,431 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:45:01,055 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:03,774 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:45:04,422 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:06,777 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:45:07,279 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:12,054 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:45:13,139 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:14,590 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "54d7d2a9-a9ce-486d-b696-dde748c88ce9", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:45:14,650 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 22, in post
+    if serializers.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1078, in get_fields
+    info = model_meta.get_field_info(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/utils/model_meta.py", line 35, in get_field_info
+    opts = model._meta.concrete_model._meta
+           ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '_meta'
+INFO 2025-03-13 05:45:14,653 logger Response: {"status_code": 500, "duration": "0.06s"}
+ERROR 2025-03-13 05:45:14,654 basehttp "POST /api/login/ HTTP/1.1" 500 139054
+INFO 2025-03-13 05:45:16,630 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "e3715936-cd06-4632-b18f-e5f8b7a332a6", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:45:16,651 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 22, in post
+    if serializers.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1078, in get_fields
+    info = model_meta.get_field_info(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/utils/model_meta.py", line 35, in get_field_info
+    opts = model._meta.concrete_model._meta
+           ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '_meta'
+INFO 2025-03-13 05:45:16,653 logger Response: {"status_code": 500, "duration": "0.02s"}
+ERROR 2025-03-13 05:45:16,653 basehttp "POST /api/login/ HTTP/1.1" 500 139054
+INFO 2025-03-13 05:45:21,435 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:24,262 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "860a55e1-6ce1-4cbc-80a4-b5e6aefd3dee", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:45:24,361 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 22, in post
+    if serializers.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1078, in get_fields
+    info = model_meta.get_field_info(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/utils/model_meta.py", line 35, in get_field_info
+    opts = model._meta.concrete_model._meta
+           ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '_meta'
+INFO 2025-03-13 05:45:24,366 logger Response: {"status_code": 500, "duration": "0.10s"}
+ERROR 2025-03-13 05:45:24,366 basehttp "POST /api/login/ HTTP/1.1" 500 139054
+INFO 2025-03-13 05:45:44,492 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:45:45,503 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:49,255 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:45:49,784 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:53,644 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:45:54,312 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:45:58,195 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:45:58,689 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:48:55,413 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:48:56,458 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:48:58,506 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "46e462e0-8fc1-4961-84ee-ee5485f37fa2", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:48:58,571 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 22, in post
+    if serializers.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 1078, in get_fields
+    info = model_meta.get_field_info(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/utils/model_meta.py", line 35, in get_field_info
+    opts = model._meta.concrete_model._meta
+           ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '_meta'
+INFO 2025-03-13 05:48:58,576 logger Response: {"status_code": 500, "duration": "0.07s"}
+ERROR 2025-03-13 05:48:58,577 basehttp "POST /api/login/ HTTP/1.1" 500 139054
+INFO 2025-03-13 05:49:43,076 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 05:49:43,707 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:49:47,604 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "e181c769-86e8-45dc-9199-5919e3ce8d88", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:49:47,648 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2025-03-13 05:49:47,652 logger Response: {"status_code": 500, "duration": "0.05s"}
+ERROR 2025-03-13 05:49:47,652 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+INFO 2025-03-13 05:49:57,044 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:50:00,720 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "f50348ea-debb-4814-b4c8-d7b681d13028", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:50:00,775 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2025-03-13 05:50:00,778 logger Response: {"status_code": 500, "duration": "0.06s"}
+ERROR 2025-03-13 05:50:00,778 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+INFO 2025-03-13 05:51:15,379 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:51:15,989 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:57:42,037 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "b8463712-a6aa-4deb-b198-a49d0551d206", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:57:42,104 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2025-03-13 05:57:42,108 logger Response: {"status_code": 500, "duration": "0.07s"}
+ERROR 2025-03-13 05:57:42,108 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+INFO 2025-03-13 05:58:01,806 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:58:02,386 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:58:05,667 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:58:06,213 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:58:10,880 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:58:11,636 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:58:14,993 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:58:15,554 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:58:17,437 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:58:17,964 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:58:27,846 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:58:28,440 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:58:30,375 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 05:58:31,075 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:58:52,961 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "6fa28d57-be3d-4c92-a5ea-e6cb19520c7e", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:58:53,045 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2025-03-13 05:58:53,053 logger Response: {"status_code": 500, "duration": "0.09s"}
+ERROR 2025-03-13 05:58:53,055 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+INFO 2025-03-13 05:59:05,051 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 05:59:06,747 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "64436dfc-da69-4e7b-a07f-6f3f579d49ff", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+ERROR 2025-03-13 05:59:06,846 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2025-03-13 05:59:06,854 logger Response: {"status_code": 500, "duration": "0.11s"}
+ERROR 2025-03-13 05:59:06,855 basehttp "POST /api/login/ HTTP/1.1" 500 91324
+INFO 2025-03-13 06:03:45,649 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 06:03:46,723 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:03:53,102 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 06:03:54,264 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:03:57,132 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 06:03:58,063 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:04:06,273 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 06:04:07,278 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:04:09,864 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 06:04:10,741 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:04:13,639 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-13 06:04:14,544 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:04:24,537 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:04:28,870 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "b45c0df6-3a3d-4813-baa5-d78ad244c4f6", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+WARNING 2025-03-13 06:04:28,890 log Bad Request: /api/login/
+WARNING 2025-03-13 06:04:28,891 basehttp "POST /api/login/ HTTP/1.1" 400 76
+INFO 2025-03-13 06:06:12,502 logger Request: {"method": "OPTIONS", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html; q=1.0, */*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/login/", "X-Requested-With": "XMLHttpRequest", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=raw-tab", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}}
+INFO 2025-03-13 06:06:12,572 basehttp "OPTIONS /api/login/ HTTP/1.1" 200 8403
+INFO 2025-03-13 06:06:39,606 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "ecd9383e-397c-48fa-bfb7-1abe13b7db9f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 06:06:39,631 log Bad Request: /api/login/
+WARNING 2025-03-13 06:06:39,632 basehttp "POST /api/login/ HTTP/1.1" 400 50
+INFO 2025-03-13 06:07:05,676 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "ec7197dd-b672-4bdf-bc1d-0c72d8304155", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 06:07:05,694 log Bad Request: /api/login/
+WARNING 2025-03-13 06:07:05,695 basehttp "POST /api/login/ HTTP/1.1" 400 50
+INFO 2025-03-13 06:07:40,317 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 06:07:41,002 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:07:43,943 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 06:07:44,591 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:07:48,547 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 06:07:49,164 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:07:51,955 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/serializers/login.py changed, reloading.
+INFO 2025-03-13 06:07:52,938 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:08:10,881 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "be43707c-35dd-43f1-9a04-a64d5d7ffda7", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "password": "*****"}}
+INFO 2025-03-13 06:08:11,135 basehttp "POST /api/login/ HTTP/1.1" 200 89
+INFO 2025-03-13 06:08:15,503 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "3e5ad74d-d4cb-472a-9fd5-b91f41a24ecc", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 06:08:15,738 log Unauthorized: /api/login/
+WARNING 2025-03-13 06:08:15,739 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-13 06:08:20,433 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "bf771d99-2bb2-46bb-8974-10ec31411ade", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "password": "*****"}}
+INFO 2025-03-13 06:08:20,687 basehttp "POST /api/login/ HTTP/1.1" 200 89
+INFO 2025-03-13 06:21:09,743 logger Request: {"method": "GET", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 06:21:09,799 log Method Not Allowed: /api/register/
+WARNING 2025-03-13 06:21:09,800 basehttp "GET /api/register/ HTTP/1.1" 405 7926
+INFO 2025-03-13 06:21:17,488 logger Request: {"method": "GET", "path": "/api/send-otp", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 06:21:17,503 basehttp "GET /api/send-otp HTTP/1.1" 301 0
+INFO 2025-03-13 06:21:17,516 logger Request: {"method": "GET", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 06:21:17,527 log Unauthorized: /api/send-otp/
+WARNING 2025-03-13 06:21:17,528 basehttp "GET /api/send-otp/ HTTP/1.1" 401 3849
+INFO 2025-03-13 06:21:39,048 logger Request: {"method": "GET", "path": "/api/validated-otp", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 06:21:39,060 log Not Found: /api/validated-otp
+WARNING 2025-03-13 06:21:39,061 basehttp "GET /api/validated-otp HTTP/1.1" 404 6691
+INFO 2025-03-13 06:21:49,547 logger Request: {"method": "GET", "path": "/api/validate-otp", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 06:21:49,553 basehttp "GET /api/validate-otp HTTP/1.1" 301 0
+INFO 2025-03-13 06:21:49,559 logger Request: {"method": "GET", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 06:21:49,569 log Unauthorized: /api/validate-otp/
+WARNING 2025-03-13 06:21:49,570 basehttp "GET /api/validate-otp/ HTTP/1.1" 401 3869
+INFO 2025-03-13 06:22:41,890 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:22:42,447 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:22:45,133 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:22:45,646 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:22:50,700 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:22:51,193 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:22:54,952 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:22:55,602 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:24:20,203 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:24:21,269 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:24:25,673 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:24:26,392 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:24:31,639 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:24:32,403 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:24:35,400 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:24:36,234 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:24:38,502 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:24:39,123 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:24:42,297 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:24:42,923 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:24:46,199 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:24:47,113 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:25:07,613 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 06:25:08,462 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:25:10,913 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:25:23,356 logger Request: {"method": "GET", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 06:25:23,464 log Method Not Allowed: /api/send-otp/
+WARNING 2025-03-13 06:25:23,465 basehttp "GET /api/send-otp/ HTTP/1.1" 405 7232
+INFO 2025-03-13 06:25:47,182 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 06:25:47,838 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 06:26:00,459 logger Request: {"method": "GET", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 06:26:00,573 log Method Not Allowed: /api/validate-otp/
+WARNING 2025-03-13 06:26:00,573 basehttp "GET /api/validate-otp/ HTTP/1.1" 405 7544
+INFO 2025-03-13 07:52:59,260 logger Request: {"method": "GET", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 07:52:59,277 log Method Not Allowed: /api/register/
+WARNING 2025-03-13 07:52:59,278 basehttp "GET /api/register/ HTTP/1.1" 405 7926
+INFO 2025-03-13 07:52:59,390 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/register/", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-13 07:52:59,400 log Not Found: /favicon.ico
+INFO 2025-03-13 07:53:17,108 logger Request: {"method": "GET", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-13 07:53:17,116 log Method Not Allowed: /api/send-otp/
+WARNING 2025-03-13 07:53:17,117 basehttp "GET /api/send-otp/ HTTP/1.1" 405 7232
+INFO 2025-03-13 07:54:21,979 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "5b7554c1-7395-4079-ba3c-62c5399e5378", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+WARNING 2025-03-13 07:54:21,985 log Bad Request: /api/send-otp/
+WARNING 2025-03-13 07:54:21,986 basehttp "POST /api/send-otp/ HTTP/1.1" 400 37
+INFO 2025-03-13 07:55:34,224 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "3f0c2b34-d9b1-488e-aee5-ad0482ef0334", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "z@gmail.com"}}
+ERROR 2025-03-13 07:55:34,250 log Internal Server Error: /api/send-otp/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py", line 27, in post
+    user = User.objects.filter(email=serializer.validated_data['email']).first()
+           ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'objects'
+INFO 2025-03-13 07:55:34,256 logger Response: {"status_code": 500, "duration": "0.03s"}
+ERROR 2025-03-13 07:55:34,256 basehttp "POST /api/send-otp/ HTTP/1.1" 500 105109
+INFO 2025-03-13 08:12:02,731 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:12:04,163 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:12:06,980 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:12:07,552 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:12:10,612 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:12:11,112 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:12:17,813 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:12:18,265 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:12:24,724 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:12:25,325 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:12:29,626 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:12:30,252 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:12:36,973 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:12:37,510 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:12:40,544 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:12:41,133 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:13:16,548 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 08:13:17,157 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:13:45,856 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "ed43168b-6622-44a1-8871-772265a890cc", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "old_password": "saif", "new_password": "saif1", "confirm_password": "saif1"}}
+WARNING 2025-03-13 08:13:45,872 log Unauthorized: /api/change-password/
+WARNING 2025-03-13 08:13:45,873 basehttp "POST /api/change-password/ HTTP/1.1" 401 58
+INFO 2025-03-13 08:14:40,477 logger Request: {"method": "POST", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "973948ee-1fc0-44b9-8f99-acc5c1c90cd8", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "z@gmail.com"}}
+WARNING 2025-03-13 08:14:40,494 log Bad Request: /api/register/
+WARNING 2025-03-13 08:14:40,494 basehttp "POST /api/register/ HTTP/1.1" 400 169
+INFO 2025-03-13 08:22:46,587 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:22:52,271 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "3be9bbc5-e64a-4f44-a41f-ce4aa1f6b777", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+WARNING 2025-03-13 08:22:52,288 log Bad Request: /api/send-otp/
+WARNING 2025-03-13 08:22:52,289 basehttp "POST /api/send-otp/ HTTP/1.1" 400 37
+INFO 2025-03-13 08:24:08,705 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "f2284071-8316-4f3b-9acf-ff13f15c1ba2", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+WARNING 2025-03-13 08:24:08,707 log Bad Request: /api/validate-otp/
+WARNING 2025-03-13 08:24:08,707 basehttp "POST /api/validate-otp/ HTTP/1.1" 400 71
+INFO 2025-03-13 08:33:28,849 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "977de6ec-cd5e-4555-9ded-89cf82f3f277", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "@gmail.com", "otp": ""}}
+WARNING 2025-03-13 08:33:28,852 log Bad Request: /api/validate-otp/
+WARNING 2025-03-13 08:33:28,853 basehttp "POST /api/validate-otp/ HTTP/1.1" 400 81
+INFO 2025-03-13 08:33:41,166 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "26fb4767-be05-4965-aac4-db2a162a7e1f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "a@gmail.com", "otp": "a"}}
+WARNING 2025-03-13 08:33:41,181 log Bad Request: /api/validate-otp/
+WARNING 2025-03-13 08:33:41,182 basehttp "POST /api/validate-otp/ HTTP/1.1" 400 44
+INFO 2025-03-13 08:33:55,449 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "7bdf82ab-36c5-4fa5-99cd-fa6d1cd4de41", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "a@gmail.com"}}
+ERROR 2025-03-13 08:33:55,483 log Internal Server Error: /api/send-otp/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py", line 27, in post
+    user = User.objects.filter(email=serializer.validated_data['email']).first()
+           ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'objects'
+INFO 2025-03-13 08:33:55,487 logger Response: {"status_code": 500, "duration": "0.04s"}
+ERROR 2025-03-13 08:33:55,488 basehttp "POST /api/send-otp/ HTTP/1.1" 500 105111
+INFO 2025-03-13 08:36:35,520 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 08:36:36,083 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:36:38,212 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 08:36:39,117 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:36:43,628 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 08:36:44,481 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:36:48,283 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/send_otp.py changed, reloading.
+INFO 2025-03-13 08:36:49,111 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:36:55,737 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "02c50abb-47bf-4b26-a9dd-a0a73c1b19f1", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "a@gmail.com"}}
+WARNING 2025-03-13 08:36:55,765 log Not Found: /api/send-otp/
+WARNING 2025-03-13 08:36:55,766 basehttp "POST /api/send-otp/ HTTP/1.1" 404 26
+INFO 2025-03-13 08:37:45,260 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py changed, reloading.
+INFO 2025-03-13 08:37:46,082 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:37:49,336 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py changed, reloading.
+INFO 2025-03-13 08:37:50,085 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:37:53,689 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/change_password.py changed, reloading.
+INFO 2025-03-13 08:37:54,254 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 08:38:06,501 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/register.py changed, reloading.
+INFO 2025-03-13 08:38:07,350 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:01:08,540 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 09:01:09,895 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:01:19,815 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 09:01:20,580 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:01:23,705 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 09:01:24,785 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:01:29,963 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 09:01:30,780 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:01:37,307 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 09:01:38,196 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:02:28,083 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/validate_otp.py changed, reloading.
+INFO 2025-03-13 09:02:28,673 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:23:50,233 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:27:15,301 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:27:56,078 logger Request: {"method": "POST", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "c6c7fc20-fc53-4802-83f2-b0808e7d3a28", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "full_name": "Zahid Hasan", "mobile_no": "01724646797", "password": "*****"}}
+INFO 2025-03-13 09:27:56,333 basehttp "POST /api/register/ HTTP/1.1" 201 49
+INFO 2025-03-13 09:28:36,383 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "97ec25ed-b355-468d-8ac8-7c52e716b55d", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com"}}
+INFO 2025-03-13 09:28:39,714 basehttp "POST /api/send-otp/ HTTP/1.1" 200 31
+INFO 2025-03-13 09:28:44,665 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "0ef89773-b1f0-4843-a5ad-6ee23ee657d4", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1arnabrahmanzahid03@gmail.com"}}
+WARNING 2025-03-13 09:28:44,688 log Not Found: /api/send-otp/
+WARNING 2025-03-13 09:28:44,688 basehttp "POST /api/send-otp/ HTTP/1.1" 404 26
+INFO 2025-03-13 09:29:43,499 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "1ffa76db-773d-424f-8e7e-76bc39aa6197", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "otp": "221208"}}
+WARNING 2025-03-13 09:29:43,500 log Bad Request: /api/validate-otp/
+WARNING 2025-03-13 09:29:43,501 basehttp "POST /api/validate-otp/ HTTP/1.1" 400 40
+INFO 2025-03-13 09:29:54,145 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "25871474-e840-4cf0-9f6b-74fbede1e77a", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "otp_code": "221208"}}
+WARNING 2025-03-13 09:29:54,160 log Bad Request: /api/validate-otp/
+WARNING 2025-03-13 09:29:54,160 basehttp "POST /api/validate-otp/ HTTP/1.1" 400 32
+INFO 2025-03-13 09:30:02,616 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "d7ca149f-2159-4ec8-b610-c86fdf6db861", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "otp_code": "121208"}}
+INFO 2025-03-13 09:30:02,644 basehttp "POST /api/validate-otp/ HTTP/1.1" 200 39
+INFO 2025-03-13 09:30:37,358 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "0e72f1c7-1b97-40a8-a0cf-983a4d87538c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 09:30:37,588 log Unauthorized: /api/login/
+WARNING 2025-03-13 09:30:37,588 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-13 09:30:45,423 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "0462a8cc-c306-4780-92cb-7012471d2b1e", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arna1brahmanzahid03@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 09:30:45,638 log Unauthorized: /api/login/
+WARNING 2025-03-13 09:30:45,638 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-13 09:30:50,328 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "5647b517-4f44-4278-aabd-987f86edf3a0", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 09:30:50,565 log Not Found: /api/login/
+WARNING 2025-03-13 09:30:50,565 basehttp "POST /api/login/ HTTP/1.1" 404 33
+INFO 2025-03-13 09:31:53,551 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:32:06,140 logger Request: {"method": "GET", "path": "/admin/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; sessionid=b56ojiy604fs4urkcql0z6bovs51on8n; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 09:32:06,182 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 09:32:06,207 logger Request: {"method": "GET", "path": "/admin/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 09:32:06,299 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4157
+INFO 2025-03-13 09:32:06,467 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:06,468 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:06,471 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:06,474 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:06,475 basehttp "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:06,475 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:06,476 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:20,345 logger Request: {"method": "POST", "path": "/admin/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/login/?next=/admin/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=zuAg57iCxPBb981XB4hDBYjC18OCc8e2; tabstyle=html-tab", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+INFO 2025-03-13 09:32:20,562 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 09:32:20,567 logger Request: {"method": "GET", "path": "/admin/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/login/?next=/admin/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; tabstyle=html-tab; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 09:32:20,599 basehttp "GET /admin/ HTTP/1.1" 200 9698
+INFO 2025-03-13 09:32:20,709 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:20,764 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-03-13 09:32:20,764 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-03-13 09:32:23,150 logger Request: {"method": "GET", "path": "/admin/oauth2_provider/application/add/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; tabstyle=html-tab; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 09:32:23,239 basehttp "GET /admin/oauth2_provider/application/add/ HTTP/1.1" 200 21029
+INFO 2025-03-13 09:32:23,363 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/oauth2_provider/application/add/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; tabstyle=html-tab; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-13 09:32:23,368 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,370 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,370 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,371 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,372 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,375 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,381 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,383 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,387 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,388 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,405 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-13 09:32:23,407 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:23,421 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-03-13 09:32:23,504 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-03-13 09:32:23,585 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/oauth2_provider/application/add/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; tabstyle=html-tab; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-13 09:32:23,594 log Not Found: /favicon.ico
+INFO 2025-03-13 09:32:25,516 logger Request: {"method": "GET", "path": "/admin/app/user/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/oauth2_provider/application/add/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; tabstyle=html-tab; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Priority": "u=0, i"}}
+INFO 2025-03-13 09:32:25,553 basehttp "GET /admin/app/user/?_to_field=id&_popup=1 HTTP/1.1" 200 4329
+INFO 2025-03-13 09:32:25,794 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:25,799 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-03-13 09:32:25,866 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-03-13 09:32:45,227 logger Request: {"method": "POST", "path": "/admin/oauth2_provider/application/add/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/oauth2_provider/application/add/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; tabstyle=html-tab; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+INFO 2025-03-13 09:32:45,501 basehttp "POST /admin/oauth2_provider/application/add/ HTTP/1.1" 302 0
+INFO 2025-03-13 09:32:45,513 logger Request: {"method": "GET", "path": "/admin/oauth2_provider/application/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/oauth2_provider/application/add/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; tabstyle=html-tab; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk; messages=.eJxNjb0OgyAQgF-F3Ex61aSbNfEJunQTQy5wCg0CEbHp29d06v79jCNo_Sop6pVLoYVBNrK9SXg6FpRz8IZ2n6JQtb02piPhNp7vCpDs6iMmqrtrdd7S4S1v-Kdgg8ZRXBgV9I_h5IacO6T-l7LiTUWQtWxFqcac97mG8LmABJimL5czNAU:1tsevl:UWFVgc-iekJ63VupuVQBA5I8IReVA59l_FRLb4EfgXk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-13 09:32:45,551 basehttp "GET /admin/oauth2_provider/application/ HTTP/1.1" 200 14481
+INFO 2025-03-13 09:32:45,658 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/oauth2_provider/application/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; tabstyle=html-tab; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-13 09:32:45,681 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-13 09:32:45,740 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-03-13 09:32:45,740 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-03-13 09:32:51,601 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "d5299f74-13be-451a-9be3-2e919cf9ec28", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "password": "*****"}}
+INFO 2025-03-13 09:32:51,843 basehttp "POST /api/login/ HTTP/1.1" 200 89
+INFO 2025-03-13 09:33:49,546 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "9a6003c4-af7b-4850-8b6a-979d08c433ec", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "old_password": "saif", "new_password": "saif1", "confirm_password": "saif1"}}
+WARNING 2025-03-13 09:33:49,548 log Unauthorized: /api/change-password/
+WARNING 2025-03-13 09:33:49,548 basehttp "POST /api/change-password/ HTTP/1.1" 401 58
+INFO 2025-03-13 09:34:12,667 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer Zeo5AsUzNZUPioIFyI5mNrdSZ34wRO", "User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "faefb8c3-7b4c-4db4-9bd9-9e8f40158953", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "old_password": "saif", "new_password": "saif1", "confirm_password": "saif1"}}
+WARNING 2025-03-13 09:34:12,890 log Bad Request: /api/change-password/
+WARNING 2025-03-13 09:34:12,891 basehttp "POST /api/change-password/ HTTP/1.1" 400 32
+INFO 2025-03-13 09:34:20,695 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer Zeo5AsUzNZUPioIFyI5mNrdSZ34wRO", "User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "4f20f817-580c-4420-a9bd-53a1d6af028e", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "a1rnabrahmanzahid03@gmail.com", "old_password": "saif", "new_password": "saif1", "confirm_password": "saif1"}}
+WARNING 2025-03-13 09:34:20,716 log Not Found: /api/change-password/
+WARNING 2025-03-13 09:34:20,716 basehttp "POST /api/change-password/ HTTP/1.1" 404 26
+INFO 2025-03-13 09:34:45,143 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer Zeo5AsUzNZUPioIFyI5mNrdSZ34wRO", "User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "6f3b5899-f812-4135-b8b2-cd01dd2992c1", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "old_password": "zahid", "new_password": "zahid", "confirm_password": "zahid"}}
+INFO 2025-03-13 09:34:45,568 basehttp "POST /api/change-password/ HTTP/1.1" 200 43
+INFO 2025-03-13 09:36:11,475 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "2110d291-1725-4ff1-9206-9349754e8f9c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": "Unable to parse body"}
+WARNING 2025-03-13 09:36:11,476 log Bad Request: /api/reset-password/
+WARNING 2025-03-13 09:36:11,477 basehttp "POST /api/reset-password/ HTTP/1.1" 400 127
+INFO 2025-03-13 09:40:22,339 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/reset_password.py changed, reloading.
+INFO 2025-03-13 09:40:22,949 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:45:49,382 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "a85d69b0-e114-4259-9886-aa09b52cbcd4", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+ERROR 2025-03-13 09:45:49,455 log Internal Server Error: /api/reset-password/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/reset_password.py", line 24, in post
+    if not user.is_otp_verified:
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'is_otp_verified'
+INFO 2025-03-13 09:45:49,462 logger Response: {"status_code": 500, "duration": "0.08s"}
+ERROR 2025-03-13 09:45:49,462 basehttp "POST /api/reset-password/ HTTP/1.1" 500 106252
+INFO 2025-03-13 09:46:16,214 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/models.py changed, reloading.
+INFO 2025-03-13 09:46:16,834 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:46:51,581 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:47:02,069 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "91535f2f-219f-4c70-8c86-7d59a68c5e5c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+INFO 2025-03-13 09:47:02,322 basehttp "POST /api/reset-password/ HTTP/1.1" 200 42
+INFO 2025-03-13 09:47:40,310 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "202a2787-12bf-4920-bf94-1678cad60d58", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnaPbrahmanzahid03@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 09:47:40,538 log Unauthorized: /api/login/
+WARNING 2025-03-13 09:47:40,539 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-13 09:47:45,194 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "fd25dbec-98fd-4488-9d2c-8ceae4c2b751", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnaPbrahmanzahid03@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 09:47:45,428 log Unauthorized: /api/login/
+WARNING 2025-03-13 09:47:45,428 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-13 09:47:53,611 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "4a76fa71-6782-4ae2-9181-6ddf6000dbef", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "password": "*****"}}
+INFO 2025-03-13 09:47:53,844 basehttp "POST /api/login/ HTTP/1.1" 200 89
+INFO 2025-03-13 09:47:57,413 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "ee41646f-6bd7-4017-b222-2fc3831cee80", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 09:47:57,652 log Unauthorized: /api/login/
+WARNING 2025-03-13 09:47:57,653 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-13 09:51:42,421 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/reset_password.py changed, reloading.
+INFO 2025-03-13 09:51:43,107 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:51:48,474 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/reset_password.py changed, reloading.
+INFO 2025-03-13 09:51:49,236 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:52:18,898 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "512ebb32-bd69-4282-866f-7b02a96b3a5f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "new_password": "zahid11", "confirm_password": "zahid1"}}
+WARNING 2025-03-13 09:52:18,911 log Bad Request: /api/reset-password/
+WARNING 2025-03-13 09:52:18,911 basehttp "POST /api/reset-password/ HTTP/1.1" 400 35
+INFO 2025-03-13 09:52:25,137 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "d849e5e8-ab92-460a-9059-774f5e715f9c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+WARNING 2025-03-13 09:52:25,159 log Bad Request: /api/reset-password/
+WARNING 2025-03-13 09:52:25,160 basehttp "POST /api/reset-password/ HTTP/1.1" 400 58
+INFO 2025-03-13 09:54:03,159 logger Request: {"method": "POST", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "fbe2c923-dc5c-427a-8f62-29fb86d1db69", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "zahid.s.dev@gmail.com", "full_name": "Zahid Hasan", "mobile_no": "01724646797", "password": "*****"}}
+WARNING 2025-03-13 09:54:03,175 log Bad Request: /api/register/
+WARNING 2025-03-13 09:54:03,176 basehttp "POST /api/register/ HTTP/1.1" 400 50
+INFO 2025-03-13 09:54:15,622 logger Request: {"method": "POST", "path": "/api/register/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "c37df2cd-aa4d-4868-a4a8-31472bb0b864", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "full_name": "Zahid Hasan", "mobile_no": "01724646797", "password": "*****"}}
+INFO 2025-03-13 09:54:15,840 basehttp "POST /api/register/ HTTP/1.1" 201 49
+INFO 2025-03-13 09:54:31,645 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "edf42b21-b0ad-48dc-901a-35f5b687163c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com"}}
+INFO 2025-03-13 09:54:35,174 basehttp "POST /api/send-otp/ HTTP/1.1" 200 31
+INFO 2025-03-13 09:55:28,410 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "97df8245-9e62-4de1-86e6-0c9fc6b9ae31", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "otp_code": "291540"}}
+INFO 2025-03-13 09:55:28,430 basehttp "POST /api/validate-otp/ HTTP/1.1" 200 39
+INFO 2025-03-13 09:56:08,312 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "9a685a64-24f2-4466-b7c1-af2b56636103", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+WARNING 2025-03-13 09:56:08,532 log Unauthorized: /api/login/
+WARNING 2025-03-13 09:56:08,533 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-13 09:56:13,415 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "51818733-7946-40b6-8fd0-d547c0f1600f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+INFO 2025-03-13 09:56:13,647 basehttp "POST /api/login/ HTTP/1.1" 200 89
+INFO 2025-03-13 09:57:01,669 logger Request: {"method": "POST", "path": "/api/change-password/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer Zeo5AsUzNZUPioIFyI5mNrdSZ34wRO", "User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "c4990caa-a2ca-4593-a1f1-2f024a44d124", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "old_password": "zahid", "new_password": "zahid", "confirm_password": "zahid"}}
+INFO 2025-03-13 09:57:02,182 basehttp "POST /api/change-password/ HTTP/1.1" 200 43
+INFO 2025-03-13 09:57:12,765 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "32fafbc2-b83b-4194-8d4f-fb4f1fc57e8f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+WARNING 2025-03-13 09:57:12,787 log Bad Request: /api/reset-password/
+WARNING 2025-03-13 09:57:12,788 basehttp "POST /api/reset-password/ HTTP/1.1" 400 58
+INFO 2025-03-13 09:57:25,473 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "75f5ec1d-0778-4126-a9fa-f25327a0c52c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com"}}
+INFO 2025-03-13 09:57:28,425 basehttp "POST /api/send-otp/ HTTP/1.1" 200 31
+INFO 2025-03-13 09:57:56,275 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "0e4bb759-e487-4a04-95ab-8d8a1e645fe6", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "otp_code": "944238"}}
+INFO 2025-03-13 09:57:56,294 basehttp "POST /api/validate-otp/ HTTP/1.1" 200 39
+INFO 2025-03-13 09:58:03,330 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "64121141-3cce-406d-8052-881571c7b0d3", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+WARNING 2025-03-13 09:58:03,359 log Bad Request: /api/reset-password/
+WARNING 2025-03-13 09:58:03,359 basehttp "POST /api/reset-password/ HTTP/1.1" 400 58
+INFO 2025-03-13 09:59:15,108 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/validate_otp.py changed, reloading.
+INFO 2025-03-13 09:59:15,726 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 09:59:30,488 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "284a1ced-b20a-47f1-904a-bd81b9a64112", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+WARNING 2025-03-13 09:59:30,523 log Bad Request: /api/reset-password/
+WARNING 2025-03-13 09:59:30,523 basehttp "POST /api/reset-password/ HTTP/1.1" 400 58
+INFO 2025-03-13 09:59:59,749 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "f32157b5-8c34-40cd-b6ca-1eefd08452b7", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+WARNING 2025-03-13 09:59:59,766 log Not Found: /api/reset-password/
+WARNING 2025-03-13 09:59:59,767 basehttp "POST /api/reset-password/ HTTP/1.1" 404 27
+INFO 2025-03-13 10:00:06,443 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "6080ffdc-798d-4c7c-a699-f419e920018f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+WARNING 2025-03-13 10:00:06,474 log Bad Request: /api/reset-password/
+WARNING 2025-03-13 10:00:06,476 basehttp "POST /api/reset-password/ HTTP/1.1" 400 58
+INFO 2025-03-13 10:00:49,029 logger Request: {"method": "POST", "path": "/api/send-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "23882215-9c02-4dd2-909f-0dd2777297da", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com"}}
+INFO 2025-03-13 10:00:52,178 basehttp "POST /api/send-otp/ HTTP/1.1" 200 31
+INFO 2025-03-13 10:01:17,220 logger Request: {"method": "POST", "path": "/api/validate-otp/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "0fd7f2b8-441d-46e7-b696-e556584e227f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "otp_code": "784406"}}
+INFO 2025-03-13 10:01:17,242 basehttp "POST /api/validate-otp/ HTTP/1.1" 200 39
+INFO 2025-03-13 10:01:30,550 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "6be64304-639d-460a-8e96-e47026b7408f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "new_password": "zahid1", "confirm_password": "zahid1"}}
+INFO 2025-03-13 10:01:30,773 basehttp "POST /api/reset-password/ HTTP/1.1" 200 42

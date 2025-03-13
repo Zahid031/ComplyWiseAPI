@@ -3,12 +3,12 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.contrib.auth import get_user_model
 from ..serializers.register import UserRegistrationSerializer
+from rest_framework import permissions
+from app.models import User
 
-
-
-User = get_user_model()
 
 class RegisterView(APIView):
+    permission_classes = []
     serializer_class= UserRegistrationSerializer
     def post(self, request):
         serializer = UserRegistrationSerializer(data=request.data)

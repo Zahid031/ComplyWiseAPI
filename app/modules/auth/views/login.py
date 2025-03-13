@@ -8,11 +8,14 @@ from oauth2_provider.models import AccessToken,RefreshToken
 from oauthlib.common import generate_token
 from oauth2_provider.settings import oauth2_settings
 from datetime import timedelta
+from rest_framework.generics import CreateAPIView
 from django.utils.timezone import now
 
 
 
-class LoginView(APIView):
+class LoginView(CreateAPIView):
+    permission_classes=[]
+
     serializer_class=LoginSerializer
     def post(self,request):
         serializers=LoginSerializer(data=request.data)
@@ -41,6 +44,7 @@ class LoginView(APIView):
             #'refresh_token': refresh_token.token,
             'token_type': 'Bearer'
             },status=status.HTTP_200_OK)
+        return Response(serializers.errors, status=status.HTTP_400_BAD_REQUEST)
             
 
 
