@@ -7,10 +7,11 @@ from rest_framework import status
 from rest_framework.generics import CreateAPIView
 from app.models import User
 from app.modules.access_control.models.otp import OTP
+from rest_framework.generics import GenericAPIView
 
-class ValidateOTPView(CreateAPIView):
+class ValidateOTPView(GenericAPIView):
     permission_classes=[]
-    #serializer_class = ValidateOTPSerializer
+    serializer_class = ValidateOTPSerializer
 
     def post(self, request):
         serializer = ValidateOTPSerializer(data=request.data)

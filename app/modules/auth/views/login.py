@@ -10,11 +10,12 @@ from oauth2_provider.settings import oauth2_settings
 from datetime import timedelta
 from rest_framework.generics import CreateAPIView
 from django.utils.timezone import now
+from rest_framework.exceptions import ValidationError
 
-
+from app.models import User
 
 class LoginView(CreateAPIView):
-    permission_classes=[]
+    #permission_classes=[]
 
     serializer_class=LoginSerializer
     def post(self,request):
@@ -22,11 +23,14 @@ class LoginView(CreateAPIView):
         if serializers.is_valid():
             email=serializers.validated_data['email']
             password=serializers.validated_data['password']
-            user=authenticate(request,email=email,password=password)
-            if not user:
+            try:
+                user=User.objects.get(email=email)
+            except User.DoesNotExist:
                 return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
-            if not user.is_active:
-                raise serializers.ValidationError("Email is not verified")
+            if not user.check_password(password):
+                return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
+            if not user.is_otp_verified:
+                raise ValidationError("Email is not verified")
             try:
                 app=Application.objects.get(client_type=Application.CLIENT_CONFIDENTIAL,authorization_grant_type="password")
             except Application.DoesNotExist:
@@ -38,6 +42,8 @@ class LoginView(CreateAPIView):
                 scope='read write',
                 expires=now()+timedelta(seconds=oauth2_settings.ACCESS_TOKEN_EXPIRE_SECONDS),
             )
+            user.is_otp_verified=False
+            user.save()
             return Response({
             'access_token': access_token.token,
             'expires_in': oauth2_settings.ACCESS_TOKEN_EXPIRE_SECONDS,

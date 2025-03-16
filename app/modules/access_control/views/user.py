@@ -2,7 +2,6 @@ from rest_framework import status
 from rest_framework.response import Response
 from django.contrib.auth import authenticate
 from django.utils.timezone import now
-from ..serializers.user import UserRegistrationSerializer, UserLoginSerializer
 from rest_framework.views import APIView
 from rest_framework import status
 from django.contrib.auth import authenticate,get_user_model,authenticate
@@ -12,67 +11,16 @@ from oauth2_provider.models import AccessToken, RefreshToken, Application
 from oauth2_provider.settings import oauth2_settings
 from datetime import timedelta
 from oauthlib.common import generate_token
-from ..serializers import UserRegistrationSerializer
+from rest_framework import viewsets
+from app.modules.access_control.serializers.user import UserSerializer
+from app.models import User
 
 
-User = get_user_model()
+#User = get_user_model()
 
-class RegisterView(APIView):
-    serializer_class= UserRegistrationSerializer
-    def post(self, request):
-        serializer = UserRegistrationSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({"message": "User registered successfully!"}, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-class LoginView(APIView):
-    serializer_class = UserLoginSerializer
-    
-    def post(self, request):    
-        serializer = UserLoginSerializer(data=request.data)
-        if serializer.is_valid():
-            email = serializer.validated_data['email']
-            password = serializer.validated_data['password']
-
-            user = authenticate(request, username=email, password=password)
-            if not user:
-                return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
-            try:
-                app=Application.objects.get(client_type=Application.CLIENT_CONFIDENTIAL,authorization_grant_type="password")
-            except Application.DoesNotExist:
-                return Response({'error': 'Application not found'}, status=status.HTTP_404_NOT_FOUND)
-            # print(app)
-            access_token=AccessToken.objects.create(
-                user=user,
-                token=generate_token(),
-                application=app,
-                expires=now()+timedelta(seconds=oauth2_settings.ACCESS_TOKEN_EXPIRE_SECONDS),
-                scope="read write"
-            )
-            refresh_token=RefreshToken.objects.create(
-                user=user,
-                token=generate_token(),
-                application=app,
-                access_token=access_token,
-                #expires=now()+timedelta(seconds=oauth2_settings.REFRESH_TOKEN_EXPIRE_SECONDS)
-
-            )
-            return Response({
-                'access_token': access_token.token,
-                'expires_in': oauth2_settings.ACCESS_TOKEN_EXPIRE_SECONDS,
-                'refresh_token': refresh_token.token,
-
-                'token_type': 'Bearer'
-            },status=status.HTTP_200_OK)
-        
-              
-
-
-
-
-
-
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
 
 

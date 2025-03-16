@@ -9,10 +9,8 @@ from rest_framework.parsers import MultiPartParser, FormParser
 from app.modules.access_control.models.employee import Employee
 from app.modules.general_module.models.documents import Documents
 from app.modules.access_control.serializers.employee import EmployeeSerializer
-from app.modules.general_module.serializers.documents import DocumentsSerializer
 import json
 import hashlib
-from django.core.files.base import ContentFile
 from django.core.files.storage import default_storage
 
 def get_file_hash(file):
@@ -23,6 +21,7 @@ def get_file_hash(file):
 
 
 class EmployeeViewSet(viewsets.ModelViewSet):
+    permission_classes = []
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
     parser_classes = (MultiPartParser, FormParser)  
