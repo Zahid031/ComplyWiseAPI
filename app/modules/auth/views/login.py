@@ -12,6 +12,7 @@ from rest_framework.generics import CreateAPIView
 from django.utils.timezone import now
 from rest_framework.exceptions import ValidationError
 
+
 from app.models import User
 
 class LoginView(CreateAPIView):
@@ -23,6 +24,7 @@ class LoginView(CreateAPIView):
         if serializers.is_valid():
             email=serializers.validated_data['email']
             password=serializers.validated_data['password']
+            #user=authenticate(email=email,password=password)
             try:
                 user=User.objects.get(email=email)
             except User.DoesNotExist:
@@ -45,6 +47,7 @@ class LoginView(CreateAPIView):
             user.is_otp_verified=False
             user.save()
             return Response({
+            'user_id': access_token.user.id,
             'access_token': access_token.token,
             'expires_in': oauth2_settings.ACCESS_TOKEN_EXPIRE_SECONDS,
             #'refresh_token': refresh_token.token,

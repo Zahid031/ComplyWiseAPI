@@ -5224,3 +5224,213 @@ Traceback (most recent call last):
     raise TypeError(
 TypeError: The `read_only_fields` option must be a list or tuple. Got builtin_function_or_method.
 ERROR 2025-03-16 10:21:49,935 basehttp "GET /api/users/ HTTP/1.1" 500 155812
+ERROR 2025-03-17 05:16:49,323 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 29, in post
+    user=User.objects.get(email=email)
+         ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'objects'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 30, in post
+    except User.DoesNotExist:
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'DoesNotExist'
+ERROR 2025-03-17 05:16:49,329 basehttp "POST /api/login/ HTTP/1.1" 500 110722
+ERROR 2025-03-17 05:18:30,071 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 35, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+ERROR 2025-03-17 05:18:30,076 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+ERROR 2025-03-17 05:21:03,398 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 35, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+ERROR 2025-03-17 05:21:03,400 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+ERROR 2025-03-17 05:21:13,598 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 35, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+ERROR 2025-03-17 05:21:13,600 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+ERROR 2025-03-17 05:23:16,117 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 34, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+ERROR 2025-03-17 05:23:16,122 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+ERROR 2025-03-17 05:23:27,535 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 34, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+ERROR 2025-03-17 05:23:27,539 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+ERROR 2025-03-17 06:31:44,968 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 705, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 633, in get_filter_form
+    queryset = view.get_queryset()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'LoginView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+ERROR 2025-03-17 06:31:44,972 basehttp "POST /api/login/ HTTP/1.1" 500 105944

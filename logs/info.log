@@ -11283,3 +11283,425 @@ INFO 2025-03-17 04:55:20,014 basehttp "POST /api/reset-password/ HTTP/1.1" 200 4
 INFO 2025-03-17 04:55:24,667 logger Request: {"method": "POST", "path": "/api/reset-password/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "9055cb5d-3df5-48bf-951c-2b7374974153", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "new_password": "zahid", "confirm_password": "zahid"}}
 WARNING 2025-03-17 04:55:24,680 log Bad Request: /api/reset-password/
 WARNING 2025-03-17 04:55:24,681 basehttp "POST /api/reset-password/ HTTP/1.1" 400 58
+INFO 2025-03-17 05:16:38,143 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:16:49,235 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "483ba242-bd7d-4fc3-a767-70be92e0f5a6", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+ERROR 2025-03-17 05:16:49,323 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 29, in post
+    user=User.objects.get(email=email)
+         ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'objects'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 30, in post
+    except User.DoesNotExist:
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'DoesNotExist'
+INFO 2025-03-17 05:16:49,328 logger Response: {"status_code": 500, "duration": "0.09s"}
+ERROR 2025-03-17 05:16:49,329 basehttp "POST /api/login/ HTTP/1.1" 500 110722
+INFO 2025-03-17 05:18:10,946 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:18:11,678 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:18:14,679 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:18:15,605 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:18:21,023 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:18:22,258 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:18:25,087 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:18:26,031 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:18:29,768 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "cb23991a-c17a-4a3e-8b71-c85ca414a42c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+ERROR 2025-03-17 05:18:30,071 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 35, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+INFO 2025-03-17 05:18:30,075 logger Response: {"status_code": 500, "duration": "0.31s"}
+ERROR 2025-03-17 05:18:30,076 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+INFO 2025-03-17 05:20:57,189 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:20:57,930 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:21:03,143 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "5675b916-f5dd-453c-b8db-0d91e7a46c08", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+ERROR 2025-03-17 05:21:03,398 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 35, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+INFO 2025-03-17 05:21:03,400 logger Response: {"status_code": 500, "duration": "0.26s"}
+ERROR 2025-03-17 05:21:03,400 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+INFO 2025-03-17 05:21:11,050 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:21:13,348 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "d0ca6335-7fd1-4abc-82b5-5b5399a30bf9", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+ERROR 2025-03-17 05:21:13,598 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 35, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+INFO 2025-03-17 05:21:13,600 logger Response: {"status_code": 500, "duration": "0.25s"}
+ERROR 2025-03-17 05:21:13,600 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+INFO 2025-03-17 05:23:06,245 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:23:07,014 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:23:09,696 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:23:10,312 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:23:12,771 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:23:13,785 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:23:15,861 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "c2b089f9-8719-491a-bb7c-4671b8b1d2c2", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+ERROR 2025-03-17 05:23:16,117 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 34, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+INFO 2025-03-17 05:23:16,121 logger Response: {"status_code": 500, "duration": "0.26s"}
+ERROR 2025-03-17 05:23:16,122 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+INFO 2025-03-17 05:23:24,460 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:23:27,283 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "3f48b017-fd6e-4542-924b-68cd2059992e", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+ERROR 2025-03-17 05:23:27,535 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py", line 34, in post
+    if not user.email_verified_at:
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'email_verified_at'
+INFO 2025-03-17 05:23:27,538 logger Response: {"status_code": 500, "duration": "0.26s"}
+ERROR 2025-03-17 05:23:27,539 basehttp "POST /api/login/ HTTP/1.1" 500 105719
+INFO 2025-03-17 05:23:50,051 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:23:50,613 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:23:58,182 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:23:58,850 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:24:01,323 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/auth/views/login.py changed, reloading.
+INFO 2025-03-17 05:24:02,177 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:24:04,408 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "e78eebcf-86a1-4fcd-a7c2-8846a1feaf99", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+WARNING 2025-03-17 05:24:04,650 log Unauthorized: /api/login/
+WARNING 2025-03-17 05:24:04,651 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-17 05:24:09,709 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "055d0929-c1a8-48d8-978a-2f4eb519df45", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "1902045zahid@gmail.com", "password": "*****"}}
+INFO 2025-03-17 05:24:09,931 basehttp "POST /api/login/ HTTP/1.1" 200 89
+INFO 2025-03-17 05:45:31,829 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:45:32,727 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:45:35,828 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:45:36,478 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:45:40,326 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:45:41,137 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:45:49,645 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:45:50,267 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:46:10,432 logger Request: {"method": "GET", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 05:46:10,504 basehttp "GET /api/users/ HTTP/1.1" 200 10656
+INFO 2025-03-17 05:46:10,627 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 05:46:10,635 log Not Found: /favicon.ico
+INFO 2025-03-17 05:46:35,045 logger Request: {"method": "POST", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+INFO 2025-03-17 05:46:35,080 basehttp "POST /api/users/ HTTP/1.1" 201 9348
+INFO 2025-03-17 05:46:35,174 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 05:46:35,179 log Not Found: /favicon.ico
+INFO 2025-03-17 05:46:41,596 logger Request: {"method": "GET", "path": "/api/users/8", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 05:46:41,609 basehttp "GET /api/users/8 HTTP/1.1" 301 0
+INFO 2025-03-17 05:46:41,640 logger Request: {"method": "GET", "path": "/api/users/8/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 05:46:41,679 basehttp "GET /api/users/8/ HTTP/1.1" 200 10809
+INFO 2025-03-17 05:47:43,179 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:47:44,188 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:49:38,385 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:49:38,961 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:49:40,910 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:49:41,516 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:49:44,892 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:49:45,672 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:50:35,877 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:50:36,976 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:50:41,401 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:50:42,119 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:50:47,226 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 05:50:47,821 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 05:51:05,816 logger Request: {"method": "GET", "path": "/api/users/8/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 05:51:05,916 basehttp "GET /api/users/8/ HTTP/1.1" 200 11043
+INFO 2025-03-17 05:52:06,939 logger Request: {"method": "PUT", "path": "/api/users/8/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html; q=1.0, */*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/8/", "X-Csrftoken": "EFSkW0QSJAFxclH5IlAWWQVPdvoGVfC4wTFRpun5gblW5RyrUN4MQCBcosEMmV24", "X-Requested-With": "XMLHttpRequest", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}, "body": "Unable to parse body"}
+WARNING 2025-03-17 05:52:06,984 log Bad Request: /api/users/8/
+WARNING 2025-03-17 05:52:06,985 basehttp "PUT /api/users/8/ HTTP/1.1" 400 10940
+INFO 2025-03-17 05:52:35,436 logger Request: {"method": "PUT", "path": "/api/users/8/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html; q=1.0, */*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/8/", "X-Csrftoken": "5kg0g63gKoC38hFdInN3iADmt33HpQgUXy3xJAAthZis1NwzUPhTcmjJE0jNQwGU", "X-Requested-With": "XMLHttpRequest", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}, "body": "Unable to parse body"}
+INFO 2025-03-17 05:52:35,493 basehttp "PUT /api/users/8/ HTTP/1.1" 200 11181
+INFO 2025-03-17 05:56:03,404 logger Request: {"method": "PUT", "path": "/api/users/8/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html; q=1.0, */*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/8/", "X-Csrftoken": "HEZBkBYpVqVvzuPXPBkccKlRZbtBUjAtzSM8N5vCs1BUs0Gj13O26w1ea8JHlZ0t", "X-Requested-With": "XMLHttpRequest", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}, "body": "Unable to parse body"}
+WARNING 2025-03-17 05:56:03,455 log Bad Request: /api/users/8/
+WARNING 2025-03-17 05:56:03,457 basehttp "PUT /api/users/8/ HTTP/1.1" 400 10995
+INFO 2025-03-17 05:56:09,680 logger Request: {"method": "OPTIONS", "path": "/api/users/8/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html; q=1.0, */*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/8/", "X-Requested-With": "XMLHttpRequest", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}}
+INFO 2025-03-17 05:56:09,715 basehttp "OPTIONS /api/users/8/ HTTP/1.1" 200 12917
+INFO 2025-03-17 05:56:10,635 logger Request: {"method": "OPTIONS", "path": "/api/users/8/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html; q=1.0, */*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/8/", "X-Requested-With": "XMLHttpRequest", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}}
+INFO 2025-03-17 05:56:10,678 basehttp "OPTIONS /api/users/8/ HTTP/1.1" 200 12917
+INFO 2025-03-17 06:08:01,904 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 06:08:03,097 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 06:08:08,566 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 06:08:09,417 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 06:08:11,636 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 06:08:12,285 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 06:08:18,353 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 06:08:18,984 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 06:08:22,812 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/user.py changed, reloading.
+INFO 2025-03-17 06:08:23,386 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 06:08:38,573 logger Request: {"method": "GET", "path": "/api/users/8/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:08:38,648 basehttp "GET /api/users/8/ HTTP/1.1" 200 11181
+INFO 2025-03-17 06:08:42,247 logger Request: {"method": "GET", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:08:42,299 basehttp "GET /api/users/ HTTP/1.1" 200 11339
+INFO 2025-03-17 06:09:01,294 logger Request: {"method": "POST", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+INFO 2025-03-17 06:09:01,557 basehttp "POST /api/users/ HTTP/1.1" 201 9718
+INFO 2025-03-17 06:09:26,679 logger Request: {"method": "GET", "path": "/api/users/9", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:09:26,683 basehttp "GET /api/users/9 HTTP/1.1" 301 0
+INFO 2025-03-17 06:09:26,687 logger Request: {"method": "GET", "path": "/api/users/9/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:09:26,726 basehttp "GET /api/users/9/ HTTP/1.1" 200 11168
+INFO 2025-03-17 06:10:19,921 logger Request: {"method": "GET", "path": "/admin/app/user/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:10:20,006 basehttp "GET /admin/app/user/ HTTP/1.1" 200 12778
+INFO 2025-03-17 06:10:20,055 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-17 06:10:20,073 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-17 06:10:20,120 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 06:10:20,126 log Not Found: /favicon.ico
+INFO 2025-03-17 06:10:24,236 logger Request: {"method": "GET", "path": "/admin/app/user/9/change/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:10:24,346 basehttp "GET /admin/app/user/9/change/ HTTP/1.1" 200 25992
+INFO 2025-03-17 06:10:24,427 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/9/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-17 06:10:24,460 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-17 06:10:24,521 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/9/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 06:10:24,528 log Not Found: /favicon.ico
+INFO 2025-03-17 06:10:24,585 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-03-17 06:10:24,585 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-03-17 06:10:28,991 logger Request: {"method": "GET", "path": "/admin/app/user/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:10:29,036 basehttp "GET /admin/app/user/ HTTP/1.1" 200 12778
+INFO 2025-03-17 06:10:30,316 logger Request: {"method": "GET", "path": "/admin/app/user/1/change/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:10:30,434 basehttp "GET /admin/app/user/1/change/ HTTP/1.1" 200 26046
+INFO 2025-03-17 06:10:30,484 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/1/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-17 06:10:30,511 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-17 06:10:30,603 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/1/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 06:10:30,611 log Not Found: /favicon.ico
+INFO 2025-03-17 06:11:04,276 logger Request: {"method": "GET", "path": "/admin/app/user/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:11:04,322 basehttp "GET /admin/app/user/ HTTP/1.1" 200 12778
+INFO 2025-03-17 06:11:06,102 logger Request: {"method": "GET", "path": "/admin/app/user/7/change/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:11:06,246 basehttp "GET /admin/app/user/7/change/ HTTP/1.1" 200 26015
+INFO 2025-03-17 06:11:06,318 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/7/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-17 06:11:06,342 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-17 06:11:06,421 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/7/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 06:11:06,424 log Not Found: /favicon.ico
+INFO 2025-03-17 06:11:12,607 logger Request: {"method": "GET", "path": "/admin/app/user/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:11:12,659 basehttp "GET /admin/app/user/ HTTP/1.1" 200 12778
+INFO 2025-03-17 06:11:14,009 logger Request: {"method": "GET", "path": "/admin/app/user/9/change/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:11:14,101 basehttp "GET /admin/app/user/9/change/ HTTP/1.1" 200 25992
+INFO 2025-03-17 06:11:14,151 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/9/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-17 06:11:14,178 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-17 06:11:14,237 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/9/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 06:11:14,242 log Not Found: /favicon.ico
+INFO 2025-03-17 06:11:29,597 logger Request: {"method": "PUT", "path": "/api/users/9/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html; q=1.0, */*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/9/", "X-Csrftoken": "A7WafxVFEj1zmmktdfnRk0GBZPp9fxUwslJHI1sSbUHYfSbPpHRHeMmYaMFfGdkw", "X-Requested-With": "XMLHttpRequest", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}, "body": "Unable to parse body"}
+INFO 2025-03-17 06:11:29,632 basehttp "PUT /api/users/9/ HTTP/1.1" 200 11168
+INFO 2025-03-17 06:11:46,459 logger Request: {"method": "GET", "path": "/admin/app/user/9/change/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:11:46,613 basehttp "GET /admin/app/user/9/change/ HTTP/1.1" 200 25992
+INFO 2025-03-17 06:11:46,675 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/9/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-17 06:11:46,734 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-17 06:11:46,784 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/9/change/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 06:11:46,789 log Not Found: /favicon.ico
+INFO 2025-03-17 06:30:31,543 logger Request: {"method": "GET", "path": "/admin/app/user/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:30:31,621 basehttp "GET /admin/app/user/ HTTP/1.1" 200 12778
+INFO 2025-03-17 06:30:31,697 logger Request: {"method": "GET", "path": "/admin/jsi18n/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "script", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=2"}}
+INFO 2025-03-17 06:30:31,724 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-17 06:30:31,777 logger Request: {"method": "GET", "path": "/favicon.ico", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/admin/app/user/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=6"}}
+WARNING 2025-03-17 06:30:31,787 log Not Found: /favicon.ico
+INFO 2025-03-17 06:30:47,933 logger Request: {"method": "GET", "path": "/api/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:30:47,942 basehttp "GET /api/ HTTP/1.1" 200 5401
+INFO 2025-03-17 06:30:51,492 logger Request: {"method": "GET", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:30:51,532 basehttp "GET /api/users/ HTTP/1.1" 200 11744
+INFO 2025-03-17 06:31:08,749 logger Request: {"method": "POST", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+WARNING 2025-03-17 06:31:08,776 log Bad Request: /api/users/
+WARNING 2025-03-17 06:31:08,776 basehttp "POST /api/users/ HTTP/1.1" 400 9554
+INFO 2025-03-17 06:31:16,078 logger Request: {"method": "POST", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+INFO 2025-03-17 06:31:16,323 basehttp "POST /api/users/ HTTP/1.1" 201 9731
+INFO 2025-03-17 06:31:29,785 logger Request: {"method": "GET", "path": "/api/login", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:31:29,800 basehttp "GET /api/login HTTP/1.1" 301 0
+INFO 2025-03-17 06:31:29,815 logger Request: {"method": "GET", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-03-17 06:31:29,831 log Method Not Allowed: /api/login/
+WARNING 2025-03-17 06:31:29,832 basehttp "GET /api/login/ HTTP/1.1" 405 7482
+INFO 2025-03-17 06:31:44,714 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/login/", "Origin": "http://127.0.0.1:8000", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}, "body": "Unable to parse body"}
+ERROR 2025-03-17 06:31:44,968 log Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 705, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 633, in get_filter_form
+    queryset = view.get_queryset()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'LoginView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+INFO 2025-03-17 06:31:44,972 logger Response: {"status_code": 500, "duration": "0.26s"}
+ERROR 2025-03-17 06:31:44,972 basehttp "POST /api/login/ HTTP/1.1" 500 105944
+INFO 2025-03-17 06:33:24,998 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "94c1b931-c5f3-4aba-8536-81287fbd9257", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid0311@gmail.com", "password": "*****"}}
+WARNING 2025-03-17 06:33:25,222 log Unauthorized: /api/login/
+WARNING 2025-03-17 06:33:25,223 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-17 06:33:30,461 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "c5e11be2-c136-42aa-a053-e356885b70eb", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03111@gmail.com", "password": "*****"}}
+WARNING 2025-03-17 06:33:30,672 log Bad Request: /api/login/
+WARNING 2025-03-17 06:33:30,672 basehttp "POST /api/login/ HTTP/1.1" 400 25
+INFO 2025-03-17 06:41:36,276 logger Request: {"method": "GET", "path": "/swagger/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:41:36,285 basehttp "GET /swagger/ HTTP/1.1" 200 2211
+INFO 2025-03-17 06:41:36,387 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2025-03-17 06:41:36,388 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2025-03-17 06:41:36,388 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2025-03-17 06:41:36,389 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2025-03-17 06:41:36,389 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2025-03-17 06:41:36,389 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2025-03-17 06:41:36,390 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2025-03-17 06:41:36,535 logger Request: {"method": "GET", "path": "/swagger/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "application/json,*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/swagger/", "X-Csrftoken": "ENnU5ovGPvda6KOH22K0VkiugyqPodgiw1aryS2Tm6TzZgF3eueQP6YRrvGVPTGi", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=4"}}
+INFO 2025-03-17 06:41:36,569 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 10436
+INFO 2025-03-17 06:53:02,935 logger Request: {"method": "GET", "path": "/api/users/9/", "ip": "127.0.0.1", "headers": {"Host": "127.0.0.1:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://127.0.0.1:8000/api/users/9/", "Connection": "keep-alive", "Cookie": "csrftoken=2oXHDEHnHLQz3G1wmCE04WQxl7qgBQAa; sessionid=jlyhkxkzwg07hc6drtjmb9k3usktuiqk", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-03-17 06:53:02,961 basehttp "GET /api/users/9/ HTTP/1.1" 200 11168
+INFO 2025-03-17 07:59:34,094 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 10:15:13,049 autoreload Watching for file changes with StatReloader
+INFO 2025-03-17 10:15:38,547 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "3f06cb74-fedc-415a-a21b-42a7e00ac786", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "iqbalhoshensaif@gmail.com", "password": "*****"}}
+WARNING 2025-03-17 10:15:39,060 log Unauthorized: /api/login/
+WARNING 2025-03-17 10:15:39,061 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-17 10:15:56,485 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "af058725-f9ed-4e83-ba04-02167162bf87", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "zahid.s.dev@gmail.com", "password": "*****"}}
+WARNING 2025-03-17 10:15:56,876 log Bad Request: /api/login/
+WARNING 2025-03-17 10:15:56,877 basehttp "POST /api/login/ HTTP/1.1" 400 25
+INFO 2025-03-17 10:16:13,029 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "0a8cef7e-743f-4cad-b1b0-388644b153dc", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "password": "*****"}}
+WARNING 2025-03-17 10:16:13,438 log Unauthorized: /api/login/
+WARNING 2025-03-17 10:16:13,439 basehttp "POST /api/login/ HTTP/1.1" 401 31
+INFO 2025-03-17 10:16:18,487 logger Request: {"method": "POST", "path": "/api/login/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "07ab5ef1-ee1a-4ee3-9f3c-81fd9a352ba9", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}, "body": {"email": "arnabrahmanzahid03@gmail.com", "password": "*****"}}
+INFO 2025-03-17 10:16:18,920 basehttp "POST /api/login/ HTTP/1.1" 200 101
+INFO 2025-03-17 10:17:16,202 logger Request: {"method": "GET", "path": "/api/users/1/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.39.1", "Accept": "*/*", "Cache-Control": "no-cache", "Postman-Token": "a59ffd05-fe0e-4dc0-b821-2f8bb20e94e9", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive", "Cookie": "csrftoken=5u3LQB4zVNu9raSCO40Uji7RBKyqaoAU"}}
+INFO 2025-03-17 10:17:16,240 basehttp "GET /api/users/1/ HTTP/1.1" 200 186
