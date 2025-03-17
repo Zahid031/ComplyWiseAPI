@@ -13,12 +13,14 @@ from datetime import timedelta
 from oauthlib.common import generate_token
 from rest_framework import viewsets
 from app.modules.access_control.serializers.user import UserSerializer
+from rest_framework import permissions
 from app.models import User
 
 
 #User = get_user_model()
 
 class UserViewSet(viewsets.ModelViewSet):
+    #permission_classes = [permissions.IsAuthenticated]
     queryset = User.objects.all()
     serializer_class = UserSerializer
 

@@ -29,7 +29,7 @@ class LoginView(CreateAPIView):
                 return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
             if not user.check_password(password):
                 return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
-            if not user.is_otp_verified:
+            if not user.email_verified_at:
                 raise ValidationError("Email is not verified")
             try:
                 app=Application.objects.get(client_type=Application.CLIENT_CONFIDENTIAL,authorization_grant_type="password")
