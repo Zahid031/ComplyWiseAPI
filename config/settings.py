@@ -61,6 +61,8 @@ MIDDLEWARE = [
     'app.core.logger.AdvancedLoggingMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'app.middleware.PermissionMiddleware',
+
 ]
 
 REST_FRAMEWORK = {

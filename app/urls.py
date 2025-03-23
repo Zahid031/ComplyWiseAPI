@@ -10,7 +10,7 @@ from app.modules.access_control.views.change_password import ChangePasswordView
 from app.modules.access_control.views.reset_password import ResetPasswordView
 from app.modules.access_control.views.user_profile import UserProfileView
 from app.modules.access_control.views.user import UserViewSet
-from app.modules.access_control.views.roles import RoleViewSet, MenuViewSet, RolePermissionViewSet, UserRoleViewSet
+from app.modules.access_control.views.roles import RoleViewSet, MenuViewSet, UserRoleViewSet
 
 
 router = DefaultRouter()
@@ -18,7 +18,7 @@ router.register(r'employees', EmployeeViewSet)
 router.register(r'users',UserViewSet)
 router.register(r'roles', RoleViewSet)
 router.register(r'menus', MenuViewSet)
-router.register(r'role-permissions',RolePermissionViewSet)
+#router.register(r'role-permissions',RolePermissionViewSet)
 router.register(r'user-roles', UserRoleViewSet)
 
 

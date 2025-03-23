@@ -7,7 +7,7 @@ from rest_framework import status
 from django.contrib.auth import authenticate,get_user_model,authenticate
 from rest_framework import status
 from rest_framework.views import APIView
-from oauth2_provider.models import AccessToken, RefreshToken, Application
+# from oauth2_provider.models import AccessToken, RefreshToken, Application
 from oauth2_provider.settings import oauth2_settings
 from datetime import timedelta
 from oauthlib.common import generate_token
@@ -21,6 +21,7 @@ from app.models import User
 
 class UserViewSet(viewsets.ModelViewSet):
     #permission_classes = [permissions.IsAuthenticated]
+    
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
