@@ -5,7 +5,7 @@ from django.http import JsonResponse
 
 class PermissionMiddleware(MiddlewareMixin):
     def process_request(self, request):
-        if request.path.startswith('/admin/') or request.path.startswith('/api/'):
+        if request.path.startswith('/admin/') or request.path.startswith('/api/') or request.path.startswith('/swagger/'):
             return None
         user=request.user
         if not user.is_authenticated:
