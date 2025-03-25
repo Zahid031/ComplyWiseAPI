@@ -5,14 +5,13 @@ from ..serializers.roles import RoleSerializer,MenuSerializer,UserRoleSerializer
 from django.db import transaction
 from rest_framework.response import Response
 from rest_framework import status
-
+from app.permissions import RoleBasedPermission
 
 class MenuViewSet(viewsets.ModelViewSet):
     queryset =Menu.objects.all()
     serializer_class=MenuSerializer
-
+    #permission_classes =[RoleBasedPermission]
             
-from django.db import transaction
 
 class RoleViewSet(viewsets.ModelViewSet):
     queryset = Role.objects.all()
@@ -24,12 +23,6 @@ class RoleViewSet(viewsets.ModelViewSet):
             serializer.is_valid(raise_exception=True)
             role = serializer.save()
             return Response(RoleSerializer(role).data, status=status.HTTP_201_CREATED)
-
-
-class MenuViewSet(viewsets.ModelViewSet):
-    queryset = Menu.objects.all()
-    serializer_class = MenuSerializer
-
 
 class UserRoleViewSet(viewsets.ModelViewSet):
     queryset=UserRole.objects.all()

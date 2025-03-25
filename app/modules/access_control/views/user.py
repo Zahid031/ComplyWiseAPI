@@ -15,12 +15,13 @@ from rest_framework import viewsets
 from app.modules.access_control.serializers.user import UserSerializer
 from rest_framework import permissions
 from app.models import User
+from app.permissions import RoleBasedPermission
 
 
 #User = get_user_model()
 
 class UserViewSet(viewsets.ModelViewSet):
-    #permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [RoleBasedPermission]
     
     queryset = User.objects.all()
     serializer_class = UserSerializer

@@ -10,8 +10,8 @@ class Role(BaseModel):
         return self.name
     
 class RolePermission(BaseModel):
-    role=models.ForeignKey(Role, on_delete=models.CASCADE,related_name="permissions")#cascade change
-    menu=models.ForeignKey(Menu, on_delete=models.CASCADE)
+    role=models.ForeignKey(Role, on_delete=models.RESTRICT,related_name="permissions")#cascade change
+    menu=models.ForeignKey(Menu, on_delete=models.RESTRICT)
     can_create=models.BooleanField(default=False)
     can_read=models.BooleanField(default=False)
     can_update=models.BooleanField(default=False)

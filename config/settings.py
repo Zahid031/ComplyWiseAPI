@@ -61,12 +61,13 @@ MIDDLEWARE = [
     'app.core.logger.AdvancedLoggingMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'app.middleware.PermissionMiddleware',
 
 ]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
         'oauth2_provider.contrib.rest_framework.OAuth2Authentication',  
     ),
     # 'DEFAULT_PERMISSION_CLASSES': (

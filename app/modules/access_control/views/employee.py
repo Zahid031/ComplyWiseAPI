@@ -12,6 +12,7 @@ from app.modules.access_control.serializers.employee import EmployeeSerializer
 import json
 import hashlib
 from django.core.files.storage import default_storage
+from app.permissions import RoleBasedPermission
 
 def get_file_hash(file):
     hasher = hashlib.sha256()
@@ -21,7 +22,7 @@ def get_file_hash(file):
 
 
 class EmployeeViewSet(viewsets.ModelViewSet):
-    permission_classes = []
+    permission_classes = [RoleBasedPermission]
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
     parser_classes = (MultiPartParser, FormParser)  
