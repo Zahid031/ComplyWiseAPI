@@ -21,7 +21,7 @@ from app.permissions import RoleBasedPermission
 #User = get_user_model()
 
 class UserViewSet(viewsets.ModelViewSet):
-    permission_classes = [RoleBasedPermission]
+    #permission_classes = [RoleBasedPermission]
     
     queryset = User.objects.all()
     serializer_class = UserSerializer

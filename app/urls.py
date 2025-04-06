@@ -10,7 +10,7 @@ from app.modules.access_control.views.change_password import ChangePasswordView
 from app.modules.access_control.views.reset_password import ResetPasswordView
 from app.modules.access_control.views.user_profile import UserProfileView
 from app.modules.access_control.views.user import UserViewSet
-from app.modules.access_control.views.roles import RoleViewSet, MenuViewSet, UserRoleViewSet
+from app.modules.access_control.views.roles import RoleViewSet, MenuViewSet, UserRoleViewSet,UserCombinedPermissionView
 
 
 router = DefaultRouter()
@@ -30,6 +30,7 @@ urlpatterns = [
     path("login/", LoginView.as_view(), name="login"),
     path("change-password/",ChangePasswordView.as_view(), name="change-password"),
     path("reset-password/",ResetPasswordView.as_view(), name="reset-password"),
+    path("user/<int:user_id>/combined-permissions/", UserCombinedPermissionView.as_view(), name='user-combined-permissions'),
     #path('user-profile/',UserProfileView.as_view(),name='user-profile'),
 
 

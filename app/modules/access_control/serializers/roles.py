@@ -58,7 +58,7 @@ class RoleSerializer(serializers.ModelSerializer):
                 menu = Menu.objects.get(id=menu_id)
                 RolePermission.objects.create(role=instance, menu=menu, **perm_data)
 
-        RolePermission.objects.filter(role=instance).exclude(menu_id__in=updated_menus).delete()
+        #RolePermission.objects.filter(role=instance).exclude(menu_id__in=updated_menus).delete()
         return instance
 
 

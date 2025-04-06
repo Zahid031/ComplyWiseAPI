@@ -14216,3 +14216,915 @@ INFO 2025-03-24 09:58:25,978 autoreload /media/zahid/Ads Power/Enterprise Infose
 INFO 2025-03-24 09:58:27,846 autoreload Watching for file changes with StatReloader
 INFO 2025-03-24 10:01:18,987 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/permissions.py changed, reloading.
 INFO 2025-03-24 10:01:20,309 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 06:17:45,668 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 06:18:32,624 logger Request: {"method": "GET", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "b2ce9619-8f83-406b-af6b-0bbcb3cc32ab", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 06:18:32,722 basehttp "GET /api/user-roles/ HTTP/1.1" 200 28
+INFO 2025-04-06 06:19:35,190 logger Request: {"method": "GET", "path": "/api/roles/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "64dd59e0-f27b-4277-a452-b139e086f210", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 06:19:35,234 basehttp "GET /api/roles/ HTTP/1.1" 200 1759
+INFO 2025-04-06 06:20:20,943 logger Request: {"method": "GET", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer blVPcpbqy4ntVjIBPjnZKXYRdkcgN3", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "6bc19b63-bb0f-4ab3-87c1-d431b24a9959", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+WARNING 2025-04-06 06:20:20,984 log Forbidden: /api/users/
+WARNING 2025-04-06 06:20:20,987 basehttp "GET /api/users/ HTTP/1.1" 403 37
+INFO 2025-04-06 06:21:14,031 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/user.py changed, reloading.
+INFO 2025-04-06 06:21:15,006 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 06:21:22,722 logger Request: {"method": "GET", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer blVPcpbqy4ntVjIBPjnZKXYRdkcgN3", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "c7438ba6-4e1d-410e-95ba-ab2dd150d07d", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 06:21:22,766 basehttp "GET /api/users/ HTTP/1.1" 200 515
+INFO 2025-04-06 06:26:14,840 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "6a798672-3a89-4af4-98d1-55e701510ea5", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "role": [2, 3, 5]}}
+WARNING 2025-04-06 06:26:14,867 log Bad Request: /api/user-roles/
+WARNING 2025-04-06 06:26:14,867 basehttp "POST /api/user-roles/ HTTP/1.1" 400 34
+INFO 2025-04-06 06:31:35,373 logger Request: {"method": "GET", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "34a9c65a-2c3d-4682-9da9-e41f39d5a3bf", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 06:31:35,395 basehttp "GET /api/user-roles/ HTTP/1.1" 200 28
+INFO 2025-04-06 06:32:26,078 logger Request: {"method": "GET", "path": "/api/roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "f48d2ddc-55b9-4cc5-ae95-c398856248ae", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 06:32:26,133 basehttp "GET /api/roles/ HTTP/1.1" 200 1759
+INFO 2025-04-06 06:56:21,860 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "4706695f-a5c3-4a73-871a-c5ed1d2a475a", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "role": [2, 3, 5]}}
+WARNING 2025-04-06 06:56:21,879 log Bad Request: /api/user-roles/
+WARNING 2025-04-06 06:56:21,880 basehttp "POST /api/user-roles/ HTTP/1.1" 400 34
+INFO 2025-04-06 06:56:45,613 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "79b8abbd-484f-4b45-b7a1-0f70250a4897", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "role": [2, 3, 5]}}
+WARNING 2025-04-06 06:56:45,639 log Bad Request: /api/user-roles/
+WARNING 2025-04-06 06:56:45,640 basehttp "POST /api/user-roles/ HTTP/1.1" 400 34
+INFO 2025-04-06 06:57:00,181 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "a105225d-ae1e-4a54-a32e-875d18bbeb5b", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "role": [2, 3, 5]}}
+WARNING 2025-04-06 06:57:00,202 log Bad Request: /api/user-roles/
+WARNING 2025-04-06 06:57:00,202 basehttp "POST /api/user-roles/ HTTP/1.1" 400 34
+INFO 2025-04-06 06:57:59,119 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "31af4e32-5c7f-4487-83bf-8163fc3a1a64", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5]}}
+ERROR 2025-04-06 06:57:59,184 log Internal Server Error: /api/user-roles/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 38, in create
+    user_role, created=UserRole.objects.create(user_id=user_id,role_id=role_id)
+    ^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable UserRole object
+INFO 2025-04-06 06:57:59,188 logger Response: {"status_code": 500, "duration": "0.07s"}
+ERROR 2025-04-06 06:57:59,189 basehttp "POST /api/user-roles/ HTTP/1.1" 500 105937
+INFO 2025-04-06 06:58:37,412 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "b7cc0b5a-92d2-4994-90ed-46a547e83ce0", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 1, "roles": [2, 3, 5]}}
+ERROR 2025-04-06 06:58:37,467 log Internal Server Error: /api/user-roles/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 38, in create
+    user_role, created=UserRole.objects.create(user_id=user_id,role_id=role_id)
+    ^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable UserRole object
+INFO 2025-04-06 06:58:37,469 logger Response: {"status_code": 500, "duration": "0.06s"}
+ERROR 2025-04-06 06:58:37,470 basehttp "POST /api/user-roles/ HTTP/1.1" 500 105937
+INFO 2025-04-06 07:00:12,208 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "0375f4b9-9cc3-4b52-b9c2-893ebeb9300c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5]}}
+ERROR 2025-04-06 07:00:12,271 log Internal Server Error: /api/user-roles/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UniqueViolation: duplicate key value violates unique constraint "app_userrole_user_id_role_id_5bad4972_uniq"
+DETAIL:  Key (user_id, role_id)=(3, 2) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 38, in create
+    user_role, created=UserRole.objects.create(user_id=user_id,role_id=role_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "app_userrole_user_id_role_id_5bad4972_uniq"
+DETAIL:  Key (user_id, role_id)=(3, 2) already exists.
+INFO 2025-04-06 07:00:12,277 logger Response: {"status_code": 500, "duration": "0.07s"}
+ERROR 2025-04-06 07:00:12,277 basehttp "POST /api/user-roles/ HTTP/1.1" 500 200667
+INFO 2025-04-06 07:01:51,048 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 07:01:52,697 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:02:01,776 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "ecffe08f-7d4b-4d38-bcd4-1a107e31decd", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5]}}
+ERROR 2025-04-06 07:02:01,879 log Internal Server Error: /api/user-roles/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UniqueViolation: duplicate key value violates unique constraint "app_userrole_user_id_role_id_5bad4972_uniq"
+DETAIL:  Key (user_id, role_id)=(3, 2) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 38, in create
+    user_role, created=UserRole.objects.create(user_id=user_id,role_id=role_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "app_userrole_user_id_role_id_5bad4972_uniq"
+DETAIL:  Key (user_id, role_id)=(3, 2) already exists.
+INFO 2025-04-06 07:02:01,889 logger Response: {"status_code": 500, "duration": "0.11s"}
+ERROR 2025-04-06 07:02:01,890 basehttp "POST /api/user-roles/ HTTP/1.1" 500 200649
+INFO 2025-04-06 07:02:09,533 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:02:15,343 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "706435ff-de15-4b84-bd8a-3c13d00a3efc", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5]}}
+ERROR 2025-04-06 07:02:15,474 log Internal Server Error: /api/user-roles/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UniqueViolation: duplicate key value violates unique constraint "app_userrole_user_id_role_id_5bad4972_uniq"
+DETAIL:  Key (user_id, role_id)=(3, 2) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 38, in create
+    user_role, created=UserRole.objects.create(user_id=user_id,role_id=role_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "app_userrole_user_id_role_id_5bad4972_uniq"
+DETAIL:  Key (user_id, role_id)=(3, 2) already exists.
+INFO 2025-04-06 07:02:15,483 logger Response: {"status_code": 500, "duration": "0.14s"}
+ERROR 2025-04-06 07:02:15,484 basehttp "POST /api/user-roles/ HTTP/1.1" 500 200667
+INFO 2025-04-06 07:02:38,571 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 07:02:39,278 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:03:49,603 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 07:03:50,904 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:05:13,407 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 07:05:14,240 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:05:35,864 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 07:05:36,767 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:05:42,098 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 07:05:43,138 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:05:45,438 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 07:05:46,524 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:06:36,441 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:06:41,347 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "fe19e335-363f-4612-97cd-69d2747fc106", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5]}}
+INFO 2025-04-06 07:06:41,414 basehttp "POST /api/user-roles/ HTTP/1.1" 201 57
+INFO 2025-04-06 07:07:12,168 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "0c654582-2764-4863-8228-f5d91c6dc7ae", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5]}}
+INFO 2025-04-06 07:07:12,206 basehttp "POST /api/user-roles/ HTTP/1.1" 201 2
+INFO 2025-04-06 07:07:16,419 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "8b6c3b12-e102-428f-baa5-9f59fc4e1d38", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5]}}
+INFO 2025-04-06 07:07:16,459 basehttp "POST /api/user-roles/ HTTP/1.1" 201 2
+INFO 2025-04-06 07:07:21,262 logger Request: {"method": "GET", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "87b358db-51bf-4a21-ab32-fa9f7a498b14", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 07:07:21,290 basehttp "GET /api/user-roles/ HTTP/1.1" 200 138
+INFO 2025-04-06 07:08:00,354 logger Request: {"method": "GET", "path": "/api/roles/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "29469ed2-369d-4b3a-accb-ec474a81ec15", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 07:08:00,400 basehttp "GET /api/roles/ HTTP/1.1" 200 1759
+INFO 2025-04-06 07:30:46,061 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 07:30:47,109 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 07:30:55,573 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "47399403-c5cc-48b3-9d34-814c41b9f4bb", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5]}}
+INFO 2025-04-06 07:30:55,635 basehttp "POST /api/user-roles/ HTTP/1.1" 201 2
+INFO 2025-04-06 07:32:37,120 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "e6f668ef-d387-4843-8653-fbdd893c1563", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5, 11]}}
+WARNING 2025-04-06 07:32:37,168 log Not Found: /api/user-roles/
+WARNING 2025-04-06 07:32:37,168 basehttp "POST /api/user-roles/ HTTP/1.1" 404 43
+INFO 2025-04-06 07:32:49,164 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "ce44b32f-b8fa-4a06-9463-df06a9e111e6", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [2, 3, 5, 9]}}
+INFO 2025-04-06 07:32:49,216 basehttp "POST /api/user-roles/ HTTP/1.1" 201 29
+INFO 2025-04-06 07:36:05,156 logger Request: {"method": "GET", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "1e4b9f6d-c364-4797-a7b5-322bcd62cc72", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 07:36:05,203 basehttp "GET /api/user-roles/ HTTP/1.1" 200 166
+INFO 2025-04-06 07:36:37,134 logger Request: {"method": "GET", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "dee632bc-14e5-451b-86c5-5d1dc0baf380", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 07:36:37,168 basehttp "GET /api/user-roles/ HTTP/1.1" 200 166
+INFO 2025-04-06 07:36:41,767 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "57113fb8-9ae7-4b7f-bf0f-6aa4b04e867b", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 3, "roles": [3, 5, 9, 2]}}
+INFO 2025-04-06 07:36:41,791 basehttp "POST /api/user-roles/ HTTP/1.1" 201 2
+INFO 2025-04-06 07:36:47,576 logger Request: {"method": "GET", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "ab6efadb-db24-4deb-adb4-51d9d131b30b", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 07:36:47,599 basehttp "GET /api/user-roles/ HTTP/1.1" 200 166
+INFO 2025-04-06 08:35:17,618 logger Request: {"method": "GET", "path": "/", "ip": "127.0.0.1", "headers": {"Host": "localhost:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "sb-oslthmdggmngmgciygnr-auth-token.0=%7B%22access_token%22%3A%22eyJhbGciOiJIUzI1NiIsImtpZCI6IlNVNnQ0TWtoRzdsNDF4TUMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL29zbHRobWRnZ21uZ21nY2l5Z25yLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI0Y2EzODY4Ni03OTY1LTQwMzQtOTUyYy0xMmVmY2E5NDg2MDIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI2Mzc3NzE3LCJpYXQiOjE3MjYzNzQxMTcsImVtYWlsIjoiemFoaWQucy5kZXZAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJnb29nbGUiLCJwcm92aWRlcnMiOlsiZ29vZ2xlIl19LCJ1c2VyX21ldGFkYXRhIjp7ImF2YXRhcl91cmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJbThTVlJjNkJvRG9lLVpGSnNHY2NZTUxMdmphSWxjQk9YU2o2RzJkY3VXM2hoWklJPXM5Ni1jIiwiZW1haWwiOiJ6YWhpZC5zLmRldkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiTWQuIFphaGlkIEhhc2FuIiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIiwibmFtZSI6Ik1kLiBaYWhpZCBIYXNhbiIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ltOFNWUmM2Qm9Eb2UtWkZKc0djY1lNTEx2amFJbGNCT1hTajZHMmRjdVczaGhaSUk9czk2LWMiLCJwcm92aWRlcl9pZCI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiIsInN1YiI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6Im9hdXRoIiwidGltZXN0YW1wIjoxNzI2Mzc0MTE3fV0sInNlc3Npb25faWQiOiI2ZmYyYzE0NS0wNWEwLTRkMTYtYThlZC0wNjA4NmYyYmUxNjciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.iRgG-tFbtnku0pbw4otSDKk_trylzNmYi8a_WW3VFqw%22%2C%22token_type%22%3A%22bearer%22%2C%22expires_in%22%3A3600%2C%22expires_at%22%3A1726377717%2C%22refresh_token%22%3A%22jAnyul_oDaKWGnZME67fQg%22%2C%22user%22%3A%7B%22id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22aud%22%3A%22authenticated%22%2C%22role%22%3A%22authenticated%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22phone%22%3A%22%22%2C%22confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A57.051493512Z%22%2C%22app_metadata%22%3A%7B%22provider%22%3A%22google%22%2C%22providers%22%3A%5B%22google%22%5D%7D%2C%22user_metadata%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22identities%22%3A%5B%7B%22identity_id%22%3A%226d19a381-ee5c-4e75-b87b-25db578476a5%22%2C%22id%22%3A%22104831734898156465286%22%2C%22user_id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22identity_data%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22M; sb-oslthmdggmngmgciygnr-auth-token.1=d.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22provider%22%3A%22google%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A56.817408Z%22%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%7D%5D%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.814115Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A57.053124Z%22%2C%22is_anonymous%22%3Afalse%7D%2C%22provider_token%22%3A%22ya29.a0AcM612w2eysXhfDUt0Fc-sHQvEilKkScGpCQEUVGmfcYZan2t3yKuP9F__RiMUTJ7birmbP7zuxKtlaHocbkiuIM5JMdo-uIGLV0DV8bvQzRlL_Nvf0vuazSGB2H33zk8p6DiQIbw0_GAECYaB57zolZxHu4q8Zr77Vlu-zzaCgYKAXoSARESFQHGX2Miphk4S-6tZAaHYvUlQBU8-w0175%22%7D; csrftoken=YhUJtIpFAQLmsAgTsLhkW0tg8Vy68nko; jenkins-timestamper-offset=-21600000; sessionid=fdf9iuuozjnyctanc6f11cti4wt2w359", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+WARNING 2025-04-06 08:35:17,634 log Not Found: /
+WARNING 2025-04-06 08:35:17,635 basehttp "GET / HTTP/1.1" 404 3168
+INFO 2025-04-06 08:35:24,146 logger Request: {"method": "GET", "path": "/swagger/", "ip": "127.0.0.1", "headers": {"Host": "localhost:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "sb-oslthmdggmngmgciygnr-auth-token.0=%7B%22access_token%22%3A%22eyJhbGciOiJIUzI1NiIsImtpZCI6IlNVNnQ0TWtoRzdsNDF4TUMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL29zbHRobWRnZ21uZ21nY2l5Z25yLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI0Y2EzODY4Ni03OTY1LTQwMzQtOTUyYy0xMmVmY2E5NDg2MDIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI2Mzc3NzE3LCJpYXQiOjE3MjYzNzQxMTcsImVtYWlsIjoiemFoaWQucy5kZXZAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJnb29nbGUiLCJwcm92aWRlcnMiOlsiZ29vZ2xlIl19LCJ1c2VyX21ldGFkYXRhIjp7ImF2YXRhcl91cmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJbThTVlJjNkJvRG9lLVpGSnNHY2NZTUxMdmphSWxjQk9YU2o2RzJkY3VXM2hoWklJPXM5Ni1jIiwiZW1haWwiOiJ6YWhpZC5zLmRldkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiTWQuIFphaGlkIEhhc2FuIiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIiwibmFtZSI6Ik1kLiBaYWhpZCBIYXNhbiIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ltOFNWUmM2Qm9Eb2UtWkZKc0djY1lNTEx2amFJbGNCT1hTajZHMmRjdVczaGhaSUk9czk2LWMiLCJwcm92aWRlcl9pZCI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiIsInN1YiI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6Im9hdXRoIiwidGltZXN0YW1wIjoxNzI2Mzc0MTE3fV0sInNlc3Npb25faWQiOiI2ZmYyYzE0NS0wNWEwLTRkMTYtYThlZC0wNjA4NmYyYmUxNjciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.iRgG-tFbtnku0pbw4otSDKk_trylzNmYi8a_WW3VFqw%22%2C%22token_type%22%3A%22bearer%22%2C%22expires_in%22%3A3600%2C%22expires_at%22%3A1726377717%2C%22refresh_token%22%3A%22jAnyul_oDaKWGnZME67fQg%22%2C%22user%22%3A%7B%22id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22aud%22%3A%22authenticated%22%2C%22role%22%3A%22authenticated%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22phone%22%3A%22%22%2C%22confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A57.051493512Z%22%2C%22app_metadata%22%3A%7B%22provider%22%3A%22google%22%2C%22providers%22%3A%5B%22google%22%5D%7D%2C%22user_metadata%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22identities%22%3A%5B%7B%22identity_id%22%3A%226d19a381-ee5c-4e75-b87b-25db578476a5%22%2C%22id%22%3A%22104831734898156465286%22%2C%22user_id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22identity_data%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22M; sb-oslthmdggmngmgciygnr-auth-token.1=d.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22provider%22%3A%22google%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A56.817408Z%22%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%7D%5D%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.814115Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A57.053124Z%22%2C%22is_anonymous%22%3Afalse%7D%2C%22provider_token%22%3A%22ya29.a0AcM612w2eysXhfDUt0Fc-sHQvEilKkScGpCQEUVGmfcYZan2t3yKuP9F__RiMUTJ7birmbP7zuxKtlaHocbkiuIM5JMdo-uIGLV0DV8bvQzRlL_Nvf0vuazSGB2H33zk8p6DiQIbw0_GAECYaB57zolZxHu4q8Zr77Vlu-zzaCgYKAXoSARESFQHGX2Miphk4S-6tZAaHYvUlQBU8-w0175%22%7D; csrftoken=YhUJtIpFAQLmsAgTsLhkW0tg8Vy68nko; jenkins-timestamper-offset=-21600000; sessionid=fdf9iuuozjnyctanc6f11cti4wt2w359", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-04-06 08:35:24,233 basehttp "GET /swagger/ HTTP/1.1" 200 2445
+INFO 2025-04-06 08:35:24,351 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-04-06 08:35:24,352 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-04-06 08:35:24,353 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-04-06 08:35:24,354 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-04-06 08:35:24,358 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-04-06 08:35:24,358 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-04-06 08:35:24,363 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-04-06 08:35:24,532 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2025-04-06 08:35:24,556 logger Request: {"method": "GET", "path": "/swagger/", "ip": "127.0.0.1", "headers": {"Host": "localhost:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "application/json,*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://localhost:8000/swagger/", "X-Csrftoken": "itmPSX39R4FuBu0Bnjmt4lYGRiRgC4r26A6obviEhKgGTU6kFUtDQbhMP3fcAhBg", "Connection": "keep-alive", "Cookie": "sb-oslthmdggmngmgciygnr-auth-token.0=%7B%22access_token%22%3A%22eyJhbGciOiJIUzI1NiIsImtpZCI6IlNVNnQ0TWtoRzdsNDF4TUMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL29zbHRobWRnZ21uZ21nY2l5Z25yLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI0Y2EzODY4Ni03OTY1LTQwMzQtOTUyYy0xMmVmY2E5NDg2MDIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI2Mzc3NzE3LCJpYXQiOjE3MjYzNzQxMTcsImVtYWlsIjoiemFoaWQucy5kZXZAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJnb29nbGUiLCJwcm92aWRlcnMiOlsiZ29vZ2xlIl19LCJ1c2VyX21ldGFkYXRhIjp7ImF2YXRhcl91cmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJbThTVlJjNkJvRG9lLVpGSnNHY2NZTUxMdmphSWxjQk9YU2o2RzJkY3VXM2hoWklJPXM5Ni1jIiwiZW1haWwiOiJ6YWhpZC5zLmRldkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiTWQuIFphaGlkIEhhc2FuIiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIiwibmFtZSI6Ik1kLiBaYWhpZCBIYXNhbiIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ltOFNWUmM2Qm9Eb2UtWkZKc0djY1lNTEx2amFJbGNCT1hTajZHMmRjdVczaGhaSUk9czk2LWMiLCJwcm92aWRlcl9pZCI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiIsInN1YiI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6Im9hdXRoIiwidGltZXN0YW1wIjoxNzI2Mzc0MTE3fV0sInNlc3Npb25faWQiOiI2ZmYyYzE0NS0wNWEwLTRkMTYtYThlZC0wNjA4NmYyYmUxNjciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.iRgG-tFbtnku0pbw4otSDKk_trylzNmYi8a_WW3VFqw%22%2C%22token_type%22%3A%22bearer%22%2C%22expires_in%22%3A3600%2C%22expires_at%22%3A1726377717%2C%22refresh_token%22%3A%22jAnyul_oDaKWGnZME67fQg%22%2C%22user%22%3A%7B%22id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22aud%22%3A%22authenticated%22%2C%22role%22%3A%22authenticated%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22phone%22%3A%22%22%2C%22confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A57.051493512Z%22%2C%22app_metadata%22%3A%7B%22provider%22%3A%22google%22%2C%22providers%22%3A%5B%22google%22%5D%7D%2C%22user_metadata%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22identities%22%3A%5B%7B%22identity_id%22%3A%226d19a381-ee5c-4e75-b87b-25db578476a5%22%2C%22id%22%3A%22104831734898156465286%22%2C%22user_id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22identity_data%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22M; sb-oslthmdggmngmgciygnr-auth-token.1=d.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22provider%22%3A%22google%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A56.817408Z%22%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%7D%5D%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.814115Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A57.053124Z%22%2C%22is_anonymous%22%3Afalse%7D%2C%22provider_token%22%3A%22ya29.a0AcM612w2eysXhfDUt0Fc-sHQvEilKkScGpCQEUVGmfcYZan2t3yKuP9F__RiMUTJ7birmbP7zuxKtlaHocbkiuIM5JMdo-uIGLV0DV8bvQzRlL_Nvf0vuazSGB2H33zk8p6DiQIbw0_GAECYaB57zolZxHu4q8Zr77Vlu-zzaCgYKAXoSARESFQHGX2Miphk4S-6tZAaHYvUlQBU8-w0175%22%7D; csrftoken=YhUJtIpFAQLmsAgTsLhkW0tg8Vy68nko; jenkins-timestamper-offset=-21600000; sessionid=fdf9iuuozjnyctanc6f11cti4wt2w359", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=4"}}
+INFO 2025-04-06 08:35:24,622 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 16760
+INFO 2025-04-06 09:56:59,104 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 09:58:27,433 logger Request: {"method": "GET", "path": "/api/user/1/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "58442c62-2273-4c80-ba31-b2ad151947c9", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+ERROR 2025-04-06 09:58:27,714 log Internal Server Error: /api/user/1/combined-permissions/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 74, in get
+    RolePermission.objects.filter(role_id_in=role_ids).values('menu_id')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'role_id_in' into field. Choices are: can_create, can_delete, can_read, can_reports, can_update, created_at, id, list_view, menu, menu_id, role, role_id, updated_at
+INFO 2025-04-06 09:58:27,718 logger Response: {"status_code": 500, "duration": "0.29s"}
+ERROR 2025-04-06 09:58:27,719 basehttp "GET /api/user/1/combined-permissions/ HTTP/1.1" 500 153932
+INFO 2025-04-06 10:00:46,173 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:00:47,058 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:00:49,491 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:00:50,739 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:00:58,499 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:01:04,592 logger Request: {"method": "GET", "path": "/api/user/1/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "a220d16d-453d-48a4-b4a7-c4757f77c307", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+ERROR 2025-04-06 10:01:04,698 log Internal Server Error: /api/user/1/combined-permissions/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedFunction: function max(boolean) does not exist
+LINE 1: SELECT "app_rolepermission"."menu_id", MAX("app_rolepermissi...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 118, in get
+    for permission in permissions:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 400, in __iter__
+    self._fetch_all()
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 210, in __iter__
+    for row in compiler.results_iter(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1525, in results_iter
+    results = self.execute_sql(
+              ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: function max(boolean) does not exist
+LINE 1: SELECT "app_rolepermission"."menu_id", MAX("app_rolepermissi...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+INFO 2025-04-06 10:01:04,704 logger Response: {"status_code": 500, "duration": "0.11s"}
+ERROR 2025-04-06 10:01:04,704 basehttp "GET /api/user/1/combined-permissions/ HTTP/1.1" 500 183048
+INFO 2025-04-06 10:08:40,205 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:08:41,524 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:08:44,293 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:08:44,976 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:08:47,860 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:08:48,730 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:09:06,734 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:09:07,960 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:09:39,259 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:09:40,550 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:09:59,921 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:10:01,210 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:10:05,529 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:10:06,361 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:10:08,772 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:10:09,766 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:10:16,507 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:10:28,977 logger Request: {"method": "GET", "path": "/api/user/1/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "28983e19-630f-4477-be2b-fb58a6609b80", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+ERROR 2025-04-06 10:10:29,077 log Internal Server Error: /api/user/1/combined-permissions/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedFunction: function max(boolean) does not exist
+LINE 1: SELECT "app_rolepermission"."menu_id", MAX("app_rolepermissi...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 134, in get
+    for permission in permissions:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 400, in __iter__
+    self._fetch_all()
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 210, in __iter__
+    for row in compiler.results_iter(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1525, in results_iter
+    results = self.execute_sql(
+              ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: function max(boolean) does not exist
+LINE 1: SELECT "app_rolepermission"."menu_id", MAX("app_rolepermissi...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+INFO 2025-04-06 10:10:29,084 logger Response: {"status_code": 500, "duration": "0.11s"}
+ERROR 2025-04-06 10:10:29,085 basehttp "GET /api/user/1/combined-permissions/ HTTP/1.1" 500 183048
+INFO 2025-04-06 10:11:43,675 logger Request: {"method": "GET", "path": "/swagger/", "ip": "127.0.0.1", "headers": {"Host": "localhost:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "sb-oslthmdggmngmgciygnr-auth-token.0=%7B%22access_token%22%3A%22eyJhbGciOiJIUzI1NiIsImtpZCI6IlNVNnQ0TWtoRzdsNDF4TUMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL29zbHRobWRnZ21uZ21nY2l5Z25yLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI0Y2EzODY4Ni03OTY1LTQwMzQtOTUyYy0xMmVmY2E5NDg2MDIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI2Mzc3NzE3LCJpYXQiOjE3MjYzNzQxMTcsImVtYWlsIjoiemFoaWQucy5kZXZAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJnb29nbGUiLCJwcm92aWRlcnMiOlsiZ29vZ2xlIl19LCJ1c2VyX21ldGFkYXRhIjp7ImF2YXRhcl91cmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJbThTVlJjNkJvRG9lLVpGSnNHY2NZTUxMdmphSWxjQk9YU2o2RzJkY3VXM2hoWklJPXM5Ni1jIiwiZW1haWwiOiJ6YWhpZC5zLmRldkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiTWQuIFphaGlkIEhhc2FuIiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIiwibmFtZSI6Ik1kLiBaYWhpZCBIYXNhbiIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ltOFNWUmM2Qm9Eb2UtWkZKc0djY1lNTEx2amFJbGNCT1hTajZHMmRjdVczaGhaSUk9czk2LWMiLCJwcm92aWRlcl9pZCI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiIsInN1YiI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6Im9hdXRoIiwidGltZXN0YW1wIjoxNzI2Mzc0MTE3fV0sInNlc3Npb25faWQiOiI2ZmYyYzE0NS0wNWEwLTRkMTYtYThlZC0wNjA4NmYyYmUxNjciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.iRgG-tFbtnku0pbw4otSDKk_trylzNmYi8a_WW3VFqw%22%2C%22token_type%22%3A%22bearer%22%2C%22expires_in%22%3A3600%2C%22expires_at%22%3A1726377717%2C%22refresh_token%22%3A%22jAnyul_oDaKWGnZME67fQg%22%2C%22user%22%3A%7B%22id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22aud%22%3A%22authenticated%22%2C%22role%22%3A%22authenticated%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22phone%22%3A%22%22%2C%22confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A57.051493512Z%22%2C%22app_metadata%22%3A%7B%22provider%22%3A%22google%22%2C%22providers%22%3A%5B%22google%22%5D%7D%2C%22user_metadata%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22identities%22%3A%5B%7B%22identity_id%22%3A%226d19a381-ee5c-4e75-b87b-25db578476a5%22%2C%22id%22%3A%22104831734898156465286%22%2C%22user_id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22identity_data%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22M; sb-oslthmdggmngmgciygnr-auth-token.1=d.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22provider%22%3A%22google%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A56.817408Z%22%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%7D%5D%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.814115Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A57.053124Z%22%2C%22is_anonymous%22%3Afalse%7D%2C%22provider_token%22%3A%22ya29.a0AcM612w2eysXhfDUt0Fc-sHQvEilKkScGpCQEUVGmfcYZan2t3yKuP9F__RiMUTJ7birmbP7zuxKtlaHocbkiuIM5JMdo-uIGLV0DV8bvQzRlL_Nvf0vuazSGB2H33zk8p6DiQIbw0_GAECYaB57zolZxHu4q8Zr77Vlu-zzaCgYKAXoSARESFQHGX2Miphk4S-6tZAaHYvUlQBU8-w0175%22%7D; csrftoken=YhUJtIpFAQLmsAgTsLhkW0tg8Vy68nko; jenkins-timestamper-offset=-21600000; sessionid=fdf9iuuozjnyctanc6f11cti4wt2w359", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}}
+INFO 2025-04-06 10:11:43,734 basehttp "GET /swagger/ HTTP/1.1" 200 2445
+INFO 2025-04-06 10:11:44,041 logger Request: {"method": "GET", "path": "/swagger/", "ip": "127.0.0.1", "headers": {"Host": "localhost:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "application/json,*/*", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://localhost:8000/swagger/", "X-Csrftoken": "7ZGyujKbJTDR13i7UaQFQgEgteiQBGYhV6q7NRZG9ze3jtoQcLXPC6XmrZGMzT8v", "Connection": "keep-alive", "Cookie": "sb-oslthmdggmngmgciygnr-auth-token.0=%7B%22access_token%22%3A%22eyJhbGciOiJIUzI1NiIsImtpZCI6IlNVNnQ0TWtoRzdsNDF4TUMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL29zbHRobWRnZ21uZ21nY2l5Z25yLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI0Y2EzODY4Ni03OTY1LTQwMzQtOTUyYy0xMmVmY2E5NDg2MDIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI2Mzc3NzE3LCJpYXQiOjE3MjYzNzQxMTcsImVtYWlsIjoiemFoaWQucy5kZXZAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJnb29nbGUiLCJwcm92aWRlcnMiOlsiZ29vZ2xlIl19LCJ1c2VyX21ldGFkYXRhIjp7ImF2YXRhcl91cmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJbThTVlJjNkJvRG9lLVpGSnNHY2NZTUxMdmphSWxjQk9YU2o2RzJkY3VXM2hoWklJPXM5Ni1jIiwiZW1haWwiOiJ6YWhpZC5zLmRldkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiTWQuIFphaGlkIEhhc2FuIiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIiwibmFtZSI6Ik1kLiBaYWhpZCBIYXNhbiIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ltOFNWUmM2Qm9Eb2UtWkZKc0djY1lNTEx2amFJbGNCT1hTajZHMmRjdVczaGhaSUk9czk2LWMiLCJwcm92aWRlcl9pZCI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiIsInN1YiI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6Im9hdXRoIiwidGltZXN0YW1wIjoxNzI2Mzc0MTE3fV0sInNlc3Npb25faWQiOiI2ZmYyYzE0NS0wNWEwLTRkMTYtYThlZC0wNjA4NmYyYmUxNjciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.iRgG-tFbtnku0pbw4otSDKk_trylzNmYi8a_WW3VFqw%22%2C%22token_type%22%3A%22bearer%22%2C%22expires_in%22%3A3600%2C%22expires_at%22%3A1726377717%2C%22refresh_token%22%3A%22jAnyul_oDaKWGnZME67fQg%22%2C%22user%22%3A%7B%22id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22aud%22%3A%22authenticated%22%2C%22role%22%3A%22authenticated%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22phone%22%3A%22%22%2C%22confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A57.051493512Z%22%2C%22app_metadata%22%3A%7B%22provider%22%3A%22google%22%2C%22providers%22%3A%5B%22google%22%5D%7D%2C%22user_metadata%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22identities%22%3A%5B%7B%22identity_id%22%3A%226d19a381-ee5c-4e75-b87b-25db578476a5%22%2C%22id%22%3A%22104831734898156465286%22%2C%22user_id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22identity_data%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22M; sb-oslthmdggmngmgciygnr-auth-token.1=d.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22provider%22%3A%22google%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A56.817408Z%22%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%7D%5D%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.814115Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A57.053124Z%22%2C%22is_anonymous%22%3Afalse%7D%2C%22provider_token%22%3A%22ya29.a0AcM612w2eysXhfDUt0Fc-sHQvEilKkScGpCQEUVGmfcYZan2t3yKuP9F__RiMUTJ7birmbP7zuxKtlaHocbkiuIM5JMdo-uIGLV0DV8bvQzRlL_Nvf0vuazSGB2H33zk8p6DiQIbw0_GAECYaB57zolZxHu4q8Zr77Vlu-zzaCgYKAXoSARESFQHGX2Miphk4S-6tZAaHYvUlQBU8-w0175%22%7D; csrftoken=YhUJtIpFAQLmsAgTsLhkW0tg8Vy68nko; jenkins-timestamper-offset=-21600000; sessionid=fdf9iuuozjnyctanc6f11cti4wt2w359", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=4"}}
+INFO 2025-04-06 10:11:44,108 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 17046
+INFO 2025-04-06 10:12:16,387 logger Request: {"method": "GET", "path": "/api/user/2/combined-permissions/", "ip": "127.0.0.1", "headers": {"Host": "localhost:8000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "Accept": "application/json", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate, br, zstd", "Referer": "http://localhost:8000/swagger/", "X-Csrftoken": "7ZGyujKbJTDR13i7UaQFQgEgteiQBGYhV6q7NRZG9ze3jtoQcLXPC6XmrZGMzT8v", "Connection": "keep-alive", "Cookie": "sb-oslthmdggmngmgciygnr-auth-token.0=%7B%22access_token%22%3A%22eyJhbGciOiJIUzI1NiIsImtpZCI6IlNVNnQ0TWtoRzdsNDF4TUMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL29zbHRobWRnZ21uZ21nY2l5Z25yLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI0Y2EzODY4Ni03OTY1LTQwMzQtOTUyYy0xMmVmY2E5NDg2MDIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI2Mzc3NzE3LCJpYXQiOjE3MjYzNzQxMTcsImVtYWlsIjoiemFoaWQucy5kZXZAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJnb29nbGUiLCJwcm92aWRlcnMiOlsiZ29vZ2xlIl19LCJ1c2VyX21ldGFkYXRhIjp7ImF2YXRhcl91cmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJbThTVlJjNkJvRG9lLVpGSnNHY2NZTUxMdmphSWxjQk9YU2o2RzJkY3VXM2hoWklJPXM5Ni1jIiwiZW1haWwiOiJ6YWhpZC5zLmRldkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiTWQuIFphaGlkIEhhc2FuIiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIiwibmFtZSI6Ik1kLiBaYWhpZCBIYXNhbiIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ltOFNWUmM2Qm9Eb2UtWkZKc0djY1lNTEx2amFJbGNCT1hTajZHMmRjdVczaGhaSUk9czk2LWMiLCJwcm92aWRlcl9pZCI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiIsInN1YiI6IjEwNDgzMTczNDg5ODE1NjQ2NTI4NiJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6Im9hdXRoIiwidGltZXN0YW1wIjoxNzI2Mzc0MTE3fV0sInNlc3Npb25faWQiOiI2ZmYyYzE0NS0wNWEwLTRkMTYtYThlZC0wNjA4NmYyYmUxNjciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.iRgG-tFbtnku0pbw4otSDKk_trylzNmYi8a_WW3VFqw%22%2C%22token_type%22%3A%22bearer%22%2C%22expires_in%22%3A3600%2C%22expires_at%22%3A1726377717%2C%22refresh_token%22%3A%22jAnyul_oDaKWGnZME67fQg%22%2C%22user%22%3A%7B%22id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22aud%22%3A%22authenticated%22%2C%22role%22%3A%22authenticated%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22phone%22%3A%22%22%2C%22confirmed_at%22%3A%222024-09-15T04%3A21%3A56.820587Z%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A57.051493512Z%22%2C%22app_metadata%22%3A%7B%22provider%22%3A%22google%22%2C%22providers%22%3A%5B%22google%22%5D%7D%2C%22user_metadata%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22identities%22%3A%5B%7B%22identity_id%22%3A%226d19a381-ee5c-4e75-b87b-25db578476a5%22%2C%22id%22%3A%22104831734898156465286%22%2C%22user_id%22%3A%224ca38686-7965-4034-952c-12efca948602%22%2C%22identity_data%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Md.%20Zahid%20Hasan%22%2C%22iss%22%3A%22https%3A%2F%2Faccounts.google.com%22%2C%22name%22%3A%22M; sb-oslthmdggmngmgciygnr-auth-token.1=d.%20Zahid%20Hasan%22%2C%22phone_verified%22%3Afalse%2C%22picture%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIm8SVRc6BoDoe-ZFJsGccYMLLvjaIlcBOXSj6G2dcuW3hhZII%3Ds96-c%22%2C%22provider_id%22%3A%22104831734898156465286%22%2C%22sub%22%3A%22104831734898156465286%22%7D%2C%22provider%22%3A%22google%22%2C%22last_sign_in_at%22%3A%222024-09-15T04%3A21%3A56.817408Z%22%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A56.817464Z%22%2C%22email%22%3A%22zahid.s.dev%40gmail.com%22%7D%5D%2C%22created_at%22%3A%222024-09-15T04%3A21%3A56.814115Z%22%2C%22updated_at%22%3A%222024-09-15T04%3A21%3A57.053124Z%22%2C%22is_anonymous%22%3Afalse%7D%2C%22provider_token%22%3A%22ya29.a0AcM612w2eysXhfDUt0Fc-sHQvEilKkScGpCQEUVGmfcYZan2t3yKuP9F__RiMUTJ7birmbP7zuxKtlaHocbkiuIM5JMdo-uIGLV0DV8bvQzRlL_Nvf0vuazSGB2H33zk8p6DiQIbw0_GAECYaB57zolZxHu4q8Zr77Vlu-zzaCgYKAXoSARESFQHGX2Miphk4S-6tZAaHYvUlQBU8-w0175%22%7D; csrftoken=YhUJtIpFAQLmsAgTsLhkW0tg8Vy68nko; jenkins-timestamper-offset=-21600000; sessionid=fdf9iuuozjnyctanc6f11cti4wt2w359", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Priority": "u=0"}}
+ERROR 2025-04-06 10:12:16,443 log Internal Server Error: /api/user/2/combined-permissions/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedFunction: function max(boolean) does not exist
+LINE 1: SELECT "app_rolepermission"."menu_id", MAX("app_rolepermissi...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 134, in get
+    for permission in permissions:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 400, in __iter__
+    self._fetch_all()
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 210, in __iter__
+    for row in compiler.results_iter(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1525, in results_iter
+    results = self.execute_sql(
+              ^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: function max(boolean) does not exist
+LINE 1: SELECT "app_rolepermission"."menu_id", MAX("app_rolepermissi...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+INFO 2025-04-06 10:12:16,449 logger Response: {"status_code": 500, "duration": "0.06s"}
+ERROR 2025-04-06 10:12:16,450 basehttp "GET /api/user/2/combined-permissions/ HTTP/1.1" 500 27407
+INFO 2025-04-06 10:14:05,374 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:14:06,569 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:14:10,176 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:14:11,458 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:14:18,517 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:14:19,190 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:14:21,293 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:14:22,023 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:14:32,201 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:14:33,099 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:14:44,381 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:14:45,645 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:14:48,244 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:14:49,557 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:14:52,976 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:14:53,863 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:15:03,429 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:15:10,035 logger Request: {"method": "GET", "path": "/api/user/1/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "f9113f0d-0194-4ab0-9d8f-16ce0e16340b", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:15:10,112 basehttp "GET /api/user/1/combined-permissions/ HTTP/1.1" 200 592
+INFO 2025-04-06 10:18:06,026 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:18:06,793 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:18:15,561 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:18:16,481 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:18:19,621 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:18:20,794 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:18:26,190 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:18:26,887 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:18:30,260 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:18:31,008 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:18:32,958 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:18:33,710 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:18:36,810 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:18:37,418 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:18:42,753 logger Request: {"method": "GET", "path": "/api/user/1/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "1919ba7f-080a-438c-a63f-4d5e30ca593f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+ERROR 2025-04-06 10:18:42,826 log Internal Server Error: /api/user/1/combined-permissions/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 97, in get
+    "menu_id": permissions["menu_id"],#MenuSerializer(menu).data,
+               ~~~~~~~~~~~^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 420, in __getitem__
+    raise TypeError(
+TypeError: QuerySet indices must be integers or slices, not str.
+INFO 2025-04-06 10:18:42,831 logger Response: {"status_code": 500, "duration": "0.08s"}
+ERROR 2025-04-06 10:18:42,832 basehttp "GET /api/user/1/combined-permissions/ HTTP/1.1" 500 110972
+INFO 2025-04-06 10:18:53,208 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:18:56,691 logger Request: {"method": "GET", "path": "/api/user/1/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "6b25b864-a6bb-4891-8762-273369635915", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+ERROR 2025-04-06 10:18:56,795 log Internal Server Error: /api/user/1/combined-permissions/
+Traceback (most recent call last):
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py", line 97, in get
+    "menu_id": permissions["menu_id"],#MenuSerializer(menu).data,
+               ~~~~~~~~~~~^^^^^^^^^^^
+  File "/media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/venv/lib/python3.11/site-packages/django/db/models/query.py", line 420, in __getitem__
+    raise TypeError(
+TypeError: QuerySet indices must be integers or slices, not str.
+INFO 2025-04-06 10:18:56,800 logger Response: {"status_code": 500, "duration": "0.11s"}
+ERROR 2025-04-06 10:18:56,801 basehttp "GET /api/user/1/combined-permissions/ HTTP/1.1" 500 110972
+INFO 2025-04-06 10:19:13,907 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:19:14,640 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:19:17,488 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:19:18,087 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:19:30,378 logger Request: {"method": "GET", "path": "/api/user/1/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "c291448b-f844-436e-8ebd-0e93d57e8e76", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:19:30,417 basehttp "GET /api/user/1/combined-permissions/ HTTP/1.1" 200 277
+INFO 2025-04-06 10:19:46,712 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/views/roles.py changed, reloading.
+INFO 2025-04-06 10:19:48,054 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:19:56,532 logger Request: {"method": "GET", "path": "/api/user/1/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "494a4333-e4f3-462b-bd62-2d0d2342c93c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:19:56,585 basehttp "GET /api/user/1/combined-permissions/ HTTP/1.1" 200 277
+INFO 2025-04-06 10:21:29,669 logger Request: {"method": "POST", "path": "/api/roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "1a3db726-c8ef-4924-9693-0c7cf54ce3f4", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test123", "permissions": [{"menu": 1, "can_create": true, "can_read": false, "can_update": false, "can_delete": false, "can_reports": false, "list_view": false}]}}
+INFO 2025-04-06 10:21:29,754 basehttp "POST /api/roles/ HTTP/1.1" 201 164
+INFO 2025-04-06 10:22:53,661 logger Request: {"method": "POST", "path": "/api/roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "75bf27e4-b727-4b9c-8566-023038a6f500", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test1234", "permissions": [{"menu": 1, "can_create": true, "can_read": true, "can_update": false, "can_delete": false, "can_reports": false, "list_view": false}]}}
+INFO 2025-04-06 10:22:53,709 basehttp "POST /api/roles/ HTTP/1.1" 201 164
+INFO 2025-04-06 10:23:21,176 logger Request: {"method": "GET", "path": "/api/users/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer blVPcpbqy4ntVjIBPjnZKXYRdkcgN3", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "79183f1d-d995-45b8-b17a-d19d5f31b8b1", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:23:21,215 basehttp "GET /api/users/ HTTP/1.1" 200 515
+INFO 2025-04-06 10:24:10,337 logger Request: {"method": "GET", "path": "/api/users/2/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer blVPcpbqy4ntVjIBPjnZKXYRdkcgN3", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "49d541aa-b4f2-4445-9a33-c37c0f5e3adc", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:24:10,364 basehttp "GET /api/users/2/ HTTP/1.1" 200 174
+INFO 2025-04-06 10:24:38,194 logger Request: {"method": "DELETE", "path": "/api/user-roles/4/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "065d7c03-ee30-432f-afbb-8972718bdcf1", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:24:38,241 basehttp "DELETE /api/user-roles/4/ HTTP/1.1" 204 0
+INFO 2025-04-06 10:24:45,738 logger Request: {"method": "GET", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "cccaf5af-3ecb-4b64-b356-9644e64fb139", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:24:45,771 basehttp "GET /api/user-roles/ HTTP/1.1" 200 139
+INFO 2025-04-06 10:26:44,041 logger Request: {"method": "POST", "path": "/api/user-roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "6be9bbca-ce4c-427d-a1a1-95a42e78ea53", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"user": 2, "roles": [10, 11]}}
+INFO 2025-04-06 10:26:44,077 basehttp "POST /api/user-roles/ HTTP/1.1" 201 59
+INFO 2025-04-06 10:27:11,000 logger Request: {"method": "GET", "path": "/api/user/2/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "ef3a0fc1-e7f2-419b-817d-1003db0c84ea", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:27:11,037 basehttp "GET /api/user/2/combined-permissions/ HTTP/1.1" 200 153
+INFO 2025-04-06 10:29:45,904 logger Request: {"method": "POST", "path": "/api/roles/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "47f410ee-8530-45a5-8398-e7918cfea913", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test1234", "permissions": [{"menu": 2, "can_create": true, "can_read": true, "can_update": true, "can_delete": false, "can_reports": false, "list_view": false}]}}
+WARNING 2025-04-06 10:29:45,932 log Bad Request: /api/roles/
+WARNING 2025-04-06 10:29:45,933 basehttp "POST /api/roles/ HTTP/1.1" 400 48
+INFO 2025-04-06 10:30:01,069 logger Request: {"method": "PATCH", "path": "/api/roles/11/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "19faef47-6fa4-43d8-ac6d-9a31ce9a3ea4", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test1234", "permissions": [{"menu": 2, "can_create": true, "can_read": true, "can_update": true, "can_delete": false, "can_reports": false, "list_view": false}]}}
+INFO 2025-04-06 10:30:01,120 basehttp "PATCH /api/roles/11/ HTTP/1.1" 200 163
+INFO 2025-04-06 10:30:08,334 logger Request: {"method": "GET", "path": "/api/roles/11/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "8fc2f647-c3dc-48c4-bd4d-57c7c0d6181c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:30:08,365 basehttp "GET /api/roles/11/ HTTP/1.1" 200 163
+INFO 2025-04-06 10:31:42,168 logger Request: {"method": "PUT", "path": "/api/roles/11/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "7913020e-7948-464f-bd28-a70cc24bed3f", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test1234", "permissions": [{"menu": 2, "can_create": true, "can_read": true, "can_update": true, "can_delete": false, "can_reports": false, "list_view": false}]}}
+INFO 2025-04-06 10:31:42,218 basehttp "PUT /api/roles/11/ HTTP/1.1" 200 163
+INFO 2025-04-06 10:31:54,046 logger Request: {"method": "PUT", "path": "/api/roles/11/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "bf61ccee-d4a0-43b7-9b78-7842bf03af07", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test1234", "permissions": [{"menu": 1, "can_create": true, "can_read": false, "can_update": true, "can_delete": false, "can_reports": false, "list_view": false}]}}
+INFO 2025-04-06 10:31:54,090 basehttp "PUT /api/roles/11/ HTTP/1.1" 200 164
+INFO 2025-04-06 10:31:59,696 logger Request: {"method": "GET", "path": "/api/roles/11/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "16c3d7a9-0158-4448-a354-9962d105f80a", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:31:59,721 basehttp "GET /api/roles/11/ HTTP/1.1" 200 164
+INFO 2025-04-06 10:41:28,231 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:41:29,014 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:41:32,136 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:41:33,341 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:41:41,436 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:41:42,078 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:41:47,041 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:41:47,830 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:41:52,165 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:41:53,176 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:41:58,900 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:41:59,558 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:42:30,622 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:42:31,581 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:42:47,501 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:42:48,322 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:43:07,491 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:43:08,166 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:43:13,459 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:43:14,148 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:43:16,087 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:43:16,713 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:43:27,244 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:43:27,953 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:43:32,063 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:43:32,793 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:43:37,917 autoreload /media/zahid/Ads Power/Enterprise Infosec Consultants/ComplyWiseApi/app/modules/access_control/serializers/roles.py changed, reloading.
+INFO 2025-04-06 10:43:38,590 autoreload Watching for file changes with StatReloader
+INFO 2025-04-06 10:44:04,352 logger Request: {"method": "PUT", "path": "/api/roles/11/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "9ec0b9ac-2d32-4bf1-9487-42efd7b3bd59", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test1234", "permissions": [{"menu": 2, "can_create": true, "can_read": false, "can_update": true, "can_delete": false, "can_reports": false, "list_view": false}]}}
+INFO 2025-04-06 10:44:04,419 basehttp "PUT /api/roles/11/ HTTP/1.1" 200 285
+INFO 2025-04-06 10:45:01,087 logger Request: {"method": "GET", "path": "/api/user/2/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "2473a9b3-e72b-4784-b585-281264f6c003", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:45:01,120 basehttp "GET /api/user/2/combined-permissions/ HTTP/1.1" 200 277
+INFO 2025-04-06 10:45:52,991 logger Request: {"method": "PUT", "path": "/api/roles/11/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "d41435ec-eade-45ad-8d01-7464b454f08c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test1234", "permissions": [{"menu": 2, "can_create": true, "can_read": false, "can_update": false, "can_delete": false, "can_reports": false, "list_view": false}]}}
+INFO 2025-04-06 10:45:53,070 basehttp "PUT /api/roles/11/ HTTP/1.1" 200 286
+INFO 2025-04-06 10:46:01,998 logger Request: {"method": "GET", "path": "/api/user/2/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "eb624a3a-9b9c-455b-98d9-263a983402bf", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:46:02,031 basehttp "GET /api/user/2/combined-permissions/ HTTP/1.1" 200 278
+INFO 2025-04-06 10:46:57,436 logger Request: {"method": "GET", "path": "/api/roles/10/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "a4313c4a-a7f1-4160-847d-1ea5be8e92cf", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:46:57,479 basehttp "GET /api/roles/10/ HTTP/1.1" 200 164
+INFO 2025-04-06 10:47:12,587 logger Request: {"method": "PUT", "path": "/api/roles/10/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "00f06699-0594-4250-9c35-16e72cb0a3a5", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test1234", "permissions": [{"menu": 2, "can_create": true, "can_read": false, "can_update": false, "can_delete": false, "can_reports": false, "list_view": true}]}}
+WARNING 2025-04-06 10:47:12,624 log Bad Request: /api/roles/10/
+WARNING 2025-04-06 10:47:12,625 basehttp "PUT /api/roles/10/ HTTP/1.1" 400 48
+INFO 2025-04-06 10:47:53,964 logger Request: {"method": "GET", "path": "/api/roles/10/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "5ab9fb04-e018-478f-a1ba-e92d97d59c8d", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:47:54,003 basehttp "GET /api/roles/10/ HTTP/1.1" 200 164
+INFO 2025-04-06 10:48:07,704 logger Request: {"method": "PUT", "path": "/api/roles/10/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "99e6087d-f067-4988-b464-2b38d9e3ceb0", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test123", "permissions": [{"menu": 2, "can_create": true, "can_read": false, "can_update": false, "can_delete": false, "can_reports": false, "list_view": true}]}}
+INFO 2025-04-06 10:48:07,746 basehttp "PUT /api/roles/10/ HTTP/1.1" 200 285
+INFO 2025-04-06 10:48:26,776 logger Request: {"method": "GET", "path": "/api/user/2/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "4cda4c75-fdf5-4dbe-a311-da2a85acc4db", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:48:26,804 basehttp "GET /api/user/2/combined-permissions/ HTTP/1.1" 200 277
+INFO 2025-04-06 10:50:18,782 logger Request: {"method": "GET", "path": "/api/roles/11/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "3fc8a700-8b4e-4bc5-a0ba-5046261893ff", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:50:18,814 basehttp "GET /api/roles/11/ HTTP/1.1" 200 286
+INFO 2025-04-06 10:51:36,063 logger Request: {"method": "GET", "path": "/api/roles/10/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "d37d34e3-98ee-4711-8664-6088025d3171", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:51:36,100 basehttp "GET /api/roles/10/ HTTP/1.1" 200 285
+INFO 2025-04-06 10:51:53,864 logger Request: {"method": "PUT", "path": "/api/roles/10/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "cdca1630-15fe-4691-8fb4-f2076a14cf33", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test123", "permissions": [{"menu": 2, "can_create": true, "can_read": true, "can_update": false, "can_delete": false, "can_reports": false, "list_view": true}]}}
+INFO 2025-04-06 10:51:53,908 basehttp "PUT /api/roles/10/ HTTP/1.1" 200 284
+INFO 2025-04-06 10:52:09,704 logger Request: {"method": "PUT", "path": "/api/roles/10/", "ip": "127.0.0.1", "headers": {"Authorization": "Bearer mimOaOCMPy20ZP6L3b0HlP067I8dyR", "User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "012e680e-d8df-45f1-adeb-44aa954430f8", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}, "body": {"name": "Test123", "permissions": [{"menu": 1, "can_create": true, "can_read": true, "can_update": false, "can_delete": false, "can_reports": false, "list_view": true}]}}
+INFO 2025-04-06 10:52:09,756 basehttp "PUT /api/roles/10/ HTTP/1.1" 200 282
+INFO 2025-04-06 10:52:30,335 logger Request: {"method": "GET", "path": "/api/user/2/combined-permissions/", "ip": "127.0.0.1", "headers": {"User-Agent": "PostmanRuntime/7.43.2", "Accept": "*/*", "Postman-Token": "97a01cd6-8e2e-4c87-9383-8896e697c38c", "Host": "127.0.0.1:8000", "Accept-Encoding": "gzip, deflate, br", "Connection": "keep-alive"}}
+INFO 2025-04-06 10:52:30,365 basehttp "GET /api/user/2/combined-permissions/ HTTP/1.1" 200 274
